@@ -1,0 +1,52 @@
+{{ "<!-- NAVIGATION -->" | safeHTML }}
+<nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        {{ "<!-- Brand and toggle get grouped for better mobile display -->" | safeHTML }}
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            {{ with .Site.Params.navigation.brand }}
+                <a class="navbar-brand page-scroll" href="#page-top">{{ . | markdownify }}</a>
+            {{ end }}
+        </div>
+        {{ "<!-- Collect the nav links, forms, and other content for toggling -->" | safeHTML }}
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                {{ if and .Site.Params.about .Site.Params.navigation.links.about }}
+                    <li>
+                        <a class="page-scroll" href="#about">{{ .Site.Params.navigation.links.about }}</a>
+                    </li>
+                {{ end }}
+                {{ if and .Site.Params.speakers.list .Site.Params.navigation.links.speakers }}
+                    <li>
+                        <a class="page-scroll" href="#speakers">{{ .Site.Params.navigation.links.speakers }}</a>
+                    </li>
+                {{ end }}
+
+                {{ if and .Site.Params.events .Site.Params.navigation.links.events}}
+                    <li>
+                        <a class="page-scroll" href="#events">{{ .Site.Params.navigation.links.events}}</a>
+                    </li>
+                {{ end }}
+
+                {{ if and .Site.Params.about .Site.Params.navigation.links.venue}}
+                    <li>
+                        <a class="page-scroll" href="#venue">{{ .Site.Params.navigation.links.venue}}</a>
+                    </li>
+                {{ end }}
+
+                {{ if and .Site.Params.partners .Site.Params.navigation.links.partners }}
+                    <li>
+                        <a class="page-scroll" href="#partners">{{ .Site.Params.navigation.links.partners }}</a>
+                    </li>
+                {{ end }}
+            </ul>
+        </div>
+        {{ "<!-- /.navbar-collapse -->" | safeHTML }}
+    </div>
+    {{ "<!-- /.container-fluid -->" | safeHTML }}
+</nav>
