@@ -54,24 +54,29 @@ theme = "hugo-creative-theme"
 		# headline = "At your service"
 
         [[params.speakers.list]]
-            icon = "fa-diamond"
-            title = "Sturdy Templates"
-            description = "Our templates are updated regularly so they don't break."
+            profile-img = "robert"
+            title = "Robert Griesemer"
+            description = "Hacker"
 
         [[params.speakers.list]]
-			icon = "fa-paper-plane"
-			title = "Ready to Ship"
-			description = "You can use this theme as is, or you can make changes!"
+            icon = "fa-diamond"
+            title = "Dave Cheney"
+            description = "Hacker"
 
-		[[params.speakers.list]]
+        [[params.speakers.list]]
+          icon = "fa-paper-plane"
+          title = "Brad Fitzpatrick"
+          description = "Hacker"
+
+        [[params.speakers.list]]
             icon = "fa-newspaper-o"
-            title = "Up to Date"
-            description = "We update dependencies to keep things fresh."
+            title = "William Kennedy"
+            description = "Hacker"
 
         [[params.speakers.list]]
             icon = "fa-heart"
-            title = "Made with Love"
-            description = "You have to make your websites with love these days!"
+            title = "You?"
+            description = "Submit a CFP"
 
   [params.events]
       headline    = "We've got what you need!"

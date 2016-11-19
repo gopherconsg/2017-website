@@ -257,6 +257,18 @@ header .header-content .header-content-inner p {
     max-width: 400px;
 }
 
+.profile-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 0 auto;
+  /**border: 4px solid #000;**/
+  background-image: url(../img/anon_gopher.png);
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: bottom;
+}
+
 @media(min-width:992px) {
     .service-box {
         margin: 20px auto 0;
