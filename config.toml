@@ -41,7 +41,6 @@ theme = "hugo-creative-theme"
 	# Hero section
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
-		slogan     = "GopherCon Singapore 2017"
 		subtitle   = "The inaugural Go conference in Singapore"
 		buttonText = "Register"
 
