@@ -32,6 +32,10 @@
             {{ partial "partners.html" . }}
         {{ end }}
 
+        {{ if .Site.Params.credits}}
+            {{ partial "credits.html" . }}
+        {{ end }}
+
         {{ if .Site.Data.projects }}
             {{ partial "modals.html" . }}
         {{ end }}

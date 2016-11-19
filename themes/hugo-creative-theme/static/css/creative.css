@@ -77,8 +77,20 @@ section {
     padding: 100px 0;
 }
 
-aside {
+aside, #credits {
     padding: 50px 0;
+}
+
+.small-text {
+  font-size: 12px;
+}
+
+.medium-text {
+  font-size: 13px;
+}
+
+.credit-text a {
+  color: #fff;
 }
 
 .no-padding {
@@ -263,7 +275,10 @@ header .header-content .header-content-inner p {
   border-radius: 50%;
   margin: 0 auto;
   /**border: 4px solid #000;**/
+  border: 8px solid #DBDBDB;
+  background-color: black;
   background-image: url(../img/anon_gopher.png);
+  opacity: 50%;
   background-repeat: no-repeat;
   background-size: 70%;
   background-position: bottom;
