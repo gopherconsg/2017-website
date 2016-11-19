@@ -19,8 +19,8 @@ theme = "hugo-creative-theme"
 
 	# To provide some metadata for search engines feel free to add some
 	# information about you and your website.
-	name = "Your name"
-	description = "Your description"
+	name = "GopherCon Singapore"
+	description = "gophercon singapore golang conference go"
 
 	# The path must be relative to the static folder
 	favicon = "favicon.ico"
@@ -28,7 +28,7 @@ theme = "hugo-creative-theme"
 
 	# Navigation
 	[params.navigation]
-		brand = "GopherCon Singapore 2017"
+		brand = "GopherCon Singapore"
 
 		[params.navigation.links]
 			about     = "About"
@@ -41,13 +41,12 @@ theme = "hugo-creative-theme"
 	# Hero section
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
-		subtitle   = "The inaugural Go conference in Singapore"
 		buttonText = "Register"
 
 
 	# About section
 	[params.about]
-		headline    = "We've got what you need!"
+		headline    = "The inaugural Go conference in Singapore!"
 
 
 	# Speakers section

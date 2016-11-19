@@ -8,9 +8,6 @@
             {{ if and .Site.Params.hero.slogan .Site.Params.hero.subtitle }}
                 <hr>
             {{ end }}
-            {{ with .Site.Params.hero.subtitle }}
-                <p>{{ . | markdownify }}</p>
-            {{ end }}
             {{ with .Site.Params.hero.buttonText }}
                 <a href="#about" class="btn btn-primary btn-xl page-scroll">{{ . }}</a>
             {{ end }}
