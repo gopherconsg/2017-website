@@ -99,5 +99,6 @@ theme = "hugo-creative-theme"
 
 	# Partners section
 	[params.partners]
-		headline = "Proudly sponsored by:"
+		#headline = "Proudly sponsored by:"
+		headline = "Sponsors"
 		description = "Interested in becoming a sponsor? [Get in touch](//)"
