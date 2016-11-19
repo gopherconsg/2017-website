@@ -95,8 +95,7 @@ theme = "hugo-creative-theme"
 		headline = "The Venue"
 
 		[params.aside.button]
-			text = "Download now"
-			link = "//github.com/digitalcraftsman/hugo-creative-theme"
+      # Get directions
 
 	# Partners section
 	[params.partners]
