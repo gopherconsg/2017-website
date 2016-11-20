@@ -207,9 +207,10 @@ aside, #credits {
         color: #6D9BF1;
     }
 
-    .navbar-default.affix .nav > li>a,
+    .navbar-default.affix .nav > li>a.tickets-btn,
     .navbar-default.affix .nav>li>a:focus {
-        color: #222;
+        background-color: #6D9BF1;
+        /**color: #222;**/
     }
 
     .navbar-default.affix .nav > li>a:hover,
@@ -454,13 +455,21 @@ fieldset[disabled] .btn-default.active {
 }
 
 .btn-primary {
-    margin-bottom: 250px;
     border-color: #6D9BF1;
     color: #fff;
     background-color: #6D9BF1;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
+}
+
+.register-btn {
+    margin-bottom: 250px;
+}
+
+.tickets-btn {
+    background-color: transparent;
+    margin-right: 15px;
 }
 
 .btn-primary:hover,
