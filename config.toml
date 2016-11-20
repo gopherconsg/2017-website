@@ -58,24 +58,20 @@ theme = "hugo-creative-theme"
             description = "Hacker"
 
         [[params.speakers.list]]
-            icon = "fa-diamond"
             title = "Dave Cheney"
             description = "Hacker"
 
         [[params.speakers.list]]
-          icon = "fa-paper-plane"
           title = "Brad Fitzpatrick"
           description = "Hacker"
 
         [[params.speakers.list]]
-            icon = "fa-newspaper-o"
             title = "William Kennedy"
             description = "Hacker"
 
         [[params.speakers.list]]
-            icon = "fa-heart"
             title = "You?"
-            description = "Submit a CFP"
+            description = "Submit a [CFP](https://www.papercall.io/gopherconsg2016)"
 
   [params.venue]
       headline    = "We've got what you need!"
