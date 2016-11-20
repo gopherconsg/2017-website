@@ -409,7 +409,15 @@ header .header-content .header-content-inner p {
 .open > .dropdown-toggle.btn-default {
     border-color: #ededed;
     color: #222;
-    background-color: #f2f2f2;
+    background-color: black;
+}
+
+ul .dropdown-menu {
+  background-color: black;
+}
+
+ul .dropdown-menu li a {
+  color: white;
 }
 
 .btn-default:active,
