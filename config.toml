@@ -1,4 +1,4 @@
-baseurl = "https://example.org/"
+baseurl = "https://gophercon.sg/"
 languageCode = "en-us"
 title = "GopherCon Singapore"
 theme = "hugo-creative-theme"
@@ -31,7 +31,7 @@ theme = "hugo-creative-theme"
 		brand = "GopherCon Singapore"
 
 		[params.navigation.links]
-			about     = "About"
+			#about     = "About"
 			speakers  = "Schedule"
 			venue     = "Venue"
 			events    = "Events"
@@ -43,10 +43,9 @@ theme = "hugo-creative-theme"
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
 		buttonText = "Register"
 
-
 	# About section
 	[params.about]
-		headline    = "The inaugural Go conference in Singapore!"
+    headline    = "The inaugural Go conference in Singapore!"
 
 
 	# Speakers section
@@ -77,6 +76,9 @@ theme = "hugo-creative-theme"
             icon = "fa-heart"
             title = "You?"
             description = "Submit a CFP"
+
+  [params.venue]
+      headline    = "We've got what you need!"
 
   [params.events]
       headline    = "We've got what you need!"
