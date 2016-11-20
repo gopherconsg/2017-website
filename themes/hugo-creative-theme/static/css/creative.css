@@ -216,9 +216,10 @@ aside, #credits {
 }
 
 .cover-img {
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 330px;
     display: block;
+    margin: 0 auto;
 }
 
 .cover-title {
@@ -476,8 +477,8 @@ fieldset[disabled] .btn-default.active {
 }
 
 .register-btn {
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin-bottom: 12px;
+    margin-top: 10px;
 }
 
 .tickets-btn {
