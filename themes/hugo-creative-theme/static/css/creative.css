@@ -81,6 +81,21 @@ aside, #credits {
     padding: 50px 0;
 }
 
+.article {
+    padding: 50px;
+}
+
+.container {
+  position: relative;
+  display: block;
+}
+
+#credits {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
 .small-text {
   font-size: 12px;
 }
