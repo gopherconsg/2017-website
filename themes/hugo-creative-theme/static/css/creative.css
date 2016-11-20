@@ -85,10 +85,6 @@ aside, #credits {
     padding: 80px 50px;
 }
 
-.gopher-nav {
-  background-color: black;
-}
-
 .single {
   position: relative;
   display: block;
@@ -219,18 +215,33 @@ aside, #credits {
     }
 }
 
+.cover-img {
+    width: 900px;
+    height: auto;
+    display: block;
+}
+
+.cover-title {
+}
+
+.cover-subtitle {
+}
+
 header {
     position: relative;
     width: 100%;
     min-height: auto;
     text-align: center;
     color: #fff;
+    background-color: black;
+    /**
     background-image: url(../img/header.jpg);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    **/
 }
 
 header .header-content {
@@ -238,6 +249,7 @@ header .header-content {
     width: 100%;
     padding: 100px 15px;
     text-align: center;
+    margin-top: 30px;
 }
 
 header .header-content .header-content-inner h1 {
@@ -464,7 +476,8 @@ fieldset[disabled] .btn-default.active {
 }
 
 .register-btn {
-    margin-bottom: 250px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .tickets-btn {

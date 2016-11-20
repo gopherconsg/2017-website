@@ -2,15 +2,15 @@
 <header>
     <div class="header-content">
         <div class="header-content-inner">
-            {{ with .Site.Params.hero.slogan }}
-                <h1>{{ . | markdownify  }}</h1>
-            {{ end }}
+            <h1 class="cover-title">GopherCon Singapore<h1>
+            <h4 class="cover-subtitle">9th - 11th April 2017<h1>
             {{ if and .Site.Params.hero.slogan .Site.Params.hero.subtitle }}
                 <hr>
             {{ end }}
             {{ with .Site.Params.hero.buttonText }}
                 <a href="#" class="btn btn-primary btn-xl register-btn">{{ . }}</a>
             {{ end }}
+            <img class="cover-img" src="../../img/header.jpg" />
         </div>
     </div>
 </header>
