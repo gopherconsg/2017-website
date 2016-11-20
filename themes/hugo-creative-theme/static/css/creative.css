@@ -82,15 +82,20 @@ aside, #credits {
 }
 
 .article {
-    padding: 50px;
+    padding: 80px 50px;
 }
 
-.container {
+.gopher-nav {
+  background-color: black;
+}
+
+.single {
   position: relative;
   display: block;
+  min-height: 100%;
 }
 
-#credits {
+.credit-footer {
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -110,6 +115,11 @@ aside, #credits {
 
 .no-padding {
     padding: 0;
+}
+
+.gopher-nav {
+  background: black;
+  width: 100%;
 }
 
 .navbar-default {
@@ -149,18 +159,18 @@ aside, #credits {
 .navbar-default .nav > li.active>a,
 .navbar-default .nav>li.active>a:focus {
     color: #6D9BF1!important;
-    background-color: transparent;
+    background-color: black;
 }
 
 .navbar-default .nav > li.active>a:hover,
 .navbar-default .nav>li.active>a:focus:hover {
-    background-color: transparent;
+    background-color: black;
 }
 
 @media(min-width:768px) {
     .navbar-default {
         border-color: rgba(255,255,255,.3);
-        background-color: transparent;
+        background-color: black;
     }
 
     .navbar-default .navbar-header .navbar-brand {

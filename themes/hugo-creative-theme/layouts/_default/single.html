@@ -1,5 +1,6 @@
+{{ partial "default_head.html" . }}
 <div class="single">
-  {{ partial "default_head.html" . }}
+  {{ partial "nav.html" . }}
 
   <div class="row">
     <div class="col-sm-9">
@@ -21,5 +22,7 @@
 
   </div>
 
-  {{ partial "credits.html" . }}
+  <div class="credit-footer">
+    {{ partial "credits.html" . }}
+  </div>
 </div>

@@ -1,21 +1,23 @@
 {{ "<!-- CREDITS -->" | safeHTML }}
-<section class="bg-primary" id="credits">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6 text-left">
-                {{ with .Site.Params.credits.headline }}
-                    <h2 class="section-heading">{{ . }}</h2>
-                {{ end }}
-                {{ if and .Site.Params.credits.headline .Site.Params.credits.description }}
-                    <hr class="light">
-                {{ end }}
-                {{ with .Site.Params.credits.description }}
-                <a href="mailto:hello@gophercon.sg">
-                  <p class="text-faded">{{ . | markdownify }}</p></a>
-                {{ end }}
-                <div class="credit-text medium-text">&copy Copyright GopherCon.SG 2017</a></div>
-                <div class="credit-text small-text">The Gopher character is based on the Go mascot designed by Renee French and copyrighted under the <a href="https://creativecommons.org/licenses/by/3.0/us/">Creative Commons Attribution 3.0 license.</a></div>
-            </div>
-        </div>
-    </div>
-</section>
+<div class="gopher-container">
+  <section class="bg-primary" id="credits">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-6 text-left">
+                  {{ with .Site.Params.credits.headline }}
+                      <h2 class="section-heading">{{ . }}</h2>
+                  {{ end }}
+                  {{ if and .Site.Params.credits.headline .Site.Params.credits.description }}
+                      <hr class="light">
+                  {{ end }}
+                  {{ with .Site.Params.credits.description }}
+                  <a href="mailto:hello@gophercon.sg">
+                    <p class="text-faded">{{ . | markdownify }}</p></a>
+                  {{ end }}
+                  <div class="credit-text medium-text">&copy Copyright GopherCon.SG 2017</a></div>
+                  <div class="credit-text small-text">The Gopher character is based on the Go mascot designed by Renee French and copyrighted under the <a href="https://creativecommons.org/licenses/by/3.0/us/">Creative Commons Attribution 3.0 license.</a></div>
+              </div>
+          </div>
+      </div>
+  </section>
+</div>
