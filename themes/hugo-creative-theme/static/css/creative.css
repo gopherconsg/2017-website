@@ -144,7 +144,7 @@ aside, #credits {
     text-transform: uppercase;
     font-size: 13px;
     font-weight: 700;
-    color: #222;
+    color: #fff;
 }
 
 .navbar-default .nav > li>a:hover,
@@ -206,6 +206,7 @@ aside, #credits {
     .navbar-default.affix .nav > li>a.tickets-btn,
     .navbar-default.affix .nav>li>a:focus {
         background-color: #6D9BF1;
+        margin-left: 0;
         /**color: #222;**/
     }
 
@@ -217,7 +218,6 @@ aside, #credits {
 
 .cover-img {
     width: auto;
-    /**height: 300px;**/
     display: block;
     margin: 0 auto;
 }
