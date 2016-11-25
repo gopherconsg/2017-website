@@ -217,7 +217,7 @@ aside, #credits {
 
 .cover-img {
     width: auto;
-    height: 330px;
+    /**height: 300px;**/
     display: block;
     margin: 0 auto;
 }
