@@ -1,0 +1,10 @@
+{{ "<!-- ASIDE -->" | safeHTML }}
+<aside class="bg-dark">
+    <div class="container text-center">
+        <div class="call-to-action">
+            {{ with .Site.Params.venue.headline }}<h2>{{ . }}</h2>{{ end }}
+            <div class="venue-desc">To be determined</div>
+            <div class="venue-addr"></div>
+        </div>
+    </div>
+</aside>

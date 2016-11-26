@@ -73,9 +73,6 @@ theme = "hugo-creative-theme"
             title = "You?"
             description = "Submit a [CFP](https://www.papercall.io/gopherconsg2016)"
 
-  [params.venue]
-      headline    = "We've got what you need!"
-
   [params.events]
       headline    = "We've got what you need!"
       description = "[Lorem](//google.com) ipsum dolor sit amet, consectetur adipisicing elit. Praesentium similique eos eligendi error veritatis harum, sed aliquid totam, quam minus neque enim est architecto, ad. Maiores, aliquid, vitae!"
@@ -88,12 +85,9 @@ theme = "hugo-creative-theme"
         category = "Category"
         buttonText = "Close"
 
-    # Aside section
-	[params.aside]
+  # Venue section
+	[params.venue]
 		headline = "The Venue"
-
-		[params.aside.button]
-      # Get directions
 
 	# Partners section
 	[params.partners]
