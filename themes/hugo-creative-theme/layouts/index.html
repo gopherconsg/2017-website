@@ -4,7 +4,7 @@
         {{ partial "head.html" . }}
     </head>
     <body id="page-top">
-        {{ if or .Site.Params.navigation.links.about .Site.Params.navigation.links.speakers .Site.Params.navigation.links.portfolio .Site.Params.navigation.links.partners }}
+        {{ if or .Site.Params.navigation.links.about .Site.Params.navigation.links.speakers .Site.Params.navigation.links.partners }}
             {{ partial "nav.html" . }}
         {{ end }}
 
@@ -18,10 +18,6 @@
 
         {{ if .Site.Params.speakers.list }}
             {{ partial "speakers.html" . }}
-        {{ end }}
-
-        {{ if .Site.Data.projects }}
-            {{ partial "portfolio.html" . }}
         {{ end }}
 
         {{ if .Site.Params.venue }}
