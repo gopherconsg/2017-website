@@ -5,8 +5,4 @@ title = "Venue"
 
 (To be confirmed)
 
-Microsoft Singapore
-
-#22-01
-1 Marina Blvd
-Singapore 018989
+We are in talks with potential venues. Would you like to sponsor? Reach out!
