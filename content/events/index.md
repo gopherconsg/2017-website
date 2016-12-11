@@ -3,6 +3,6 @@ title = "Events"
 
 +++
 
-**10th April, 6:00pm** - Speaker's Dinner
+**D-1, 6:00pm** - Speaker's Dinner
 
-**11th April, 6:00pm** - After Party
+**D-day, 6:00pm** - After Party
