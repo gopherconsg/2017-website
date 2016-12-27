@@ -71,7 +71,7 @@ theme = "hugo-creative-theme"
 
         [[params.speakers.list]]
             title = "You?"
-            description = "Submit a [CFP](https://www.papercall.io/gopherconsg2016)"
+            description = "Submit a [CFP](https://www.papercall.io/gopherconsg2017)"
 
   [params.events]
       headline    = "We've got what you need!"
