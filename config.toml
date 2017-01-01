@@ -87,8 +87,8 @@ ignoreFiles = ["\\.md$"]
 	[params.partners]
 		#headline = "Proudly sponsored by:"
 		headline = "Sponsors"
-		description = "Interested in becoming a sponsor? [Get in touch](mailto:hello@gophercon.sg)"
+		description = "Interested in becoming a sponsor? [Get in touch](mailto:gopherconsg@gmail.com)"
 
 	# Footer section
 	[params.credits]
-    description = "hello@gophercon.sg"
+    description = "gopherconsg@gmail.com"
