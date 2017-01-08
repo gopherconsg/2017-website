@@ -12,22 +12,6 @@
             {{ partial "hero.html" . }}
         {{ end }}
 
-        {{ if .Site.Params.about }}
-            {{ partial "about.html" . }}
-        {{ end }}
-
-        {{ if .Site.Params.speakers.list }}
-            {{ partial "speakers.html" . }}
-        {{ end }}
-
-        {{ if .Site.Params.venue }}
-            {{ partial "venue.html" . }}
-        {{ end }}
-
-        {{ if .Site.Params.partners }}
-            {{ partial "partners.html" . }}
-        {{ end }}
-
         {{ if .Site.Params.credits}}
             {{ partial "credits.html" . }}
         {{ end }}

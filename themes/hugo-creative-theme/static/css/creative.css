@@ -11,7 +11,7 @@ body {
 }
 
 body {
-    font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 }
 
 hr {
@@ -51,7 +51,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
 }
 
 p {
@@ -61,12 +61,12 @@ p {
 }
 
 .bg-primary {
-    background-color: #6D9BF1;
+    background-color: #e84661;
 }
 
 .bg-dark {
     color: #fff;
-    background-color: #222;
+    background-color: #36bfbe;
 }
 
 .text-faded {
@@ -476,9 +476,9 @@ fieldset[disabled] .btn-default.active {
 }
 
 .btn-primary {
-    border-color: #6D9BF1;
+    border-color: #36bfbe;
     color: #fff;
-    background-color: #6D9BF1;
+    background-color: #36bfbe;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -502,7 +502,7 @@ fieldset[disabled] .btn-default.active {
 .open > .dropdown-toggle.btn-primary {
     border-color: #ed431f;
     color: #fff;
-    background-color: #3579DC;
+    background-color: #1da79d;
 }
 
 .btn-primary:active,
@@ -529,12 +529,12 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color: #6D9BF1;
-    background-color: #6D9BF1;
+    border-color: #1da79d;
+    background-color: #1da79d;
 }
 
 .btn-primary .badge {
-    color: #6D9BF1;
+    color: #1da79d;
     background-color: #fff;
 }
 
