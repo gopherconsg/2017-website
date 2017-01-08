@@ -114,13 +114,13 @@ aside, #credits {
 }
 
 .gopher-nav {
-  background: black;
+  background: white;
   width: 100%;
 }
 
 .navbar-default {
     border-color: rgba(34,34,34,.05);
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
     background-color: #fff;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
@@ -129,63 +129,67 @@ aside, #credits {
 
 .navbar-default .navbar-header .navbar-brand {
     text-transform: uppercase;
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
     font-weight: 700;
-    color: #6D9BF1;
+    color: #e84661;
 }
 
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
-    color: #6D9BF1;
+    color: #e84661;
 }
 
 .navbar-default .nav > li>a,
 .navbar-default .nav>li>a:focus {
-    text-transform: uppercase;
-    font-size: 13px;
-    font-weight: 700;
-    color: #fff;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    color: #e84661;
 }
 
 .navbar-default .nav > li>a:hover,
 .navbar-default .nav>li>a:focus:hover {
-    color: #6D9BF1;
+    color: #fff;
 }
 
 .navbar-default .nav > li.active>a,
 .navbar-default .nav>li.active>a:focus {
-    color: #6D9BF1!important;
-    background-color: black;
+    color: #fff!important;
+    background-color: #e84661;
 }
 
 .navbar-default .nav > li.active>a:hover,
 .navbar-default .nav>li.active>a:focus:hover {
-    background-color: black;
+    background-color: #e84661;
+}
+
+.navbar-default .navbar-toggle {
+    color: white;
 }
 
 @media(min-width:768px) {
     .navbar-default {
-        border-color: rgba(255,255,255,.3);
-        background-color: black;
+        background-color: white;
     }
 
     .navbar-default .navbar-header .navbar-brand {
-        color: rgba(255,255,255,.7);
+        color: #e84661;
     }
 
     .navbar-default .navbar-header .navbar-brand:hover,
     .navbar-default .navbar-header .navbar-brand:focus {
-        color: #fff;
+        color: #e84661;
     }
 
     .navbar-default .nav > li>a,
     .navbar-default .nav>li>a:focus {
-        color: rgba(255,255,255,.7);
+        color: #e84661;
     }
 
     .navbar-default .nav > li>a:hover,
     .navbar-default .nav>li>a:focus:hover {
         color: #fff;
+        background-color: #e84661;
     }
 
     .navbar-default.affix {
@@ -195,7 +199,7 @@ aside, #credits {
 
     .navbar-default.affix .navbar-header .navbar-brand {
         font-size: 14px;
-        color: #6D9BF1;
+        color: #e84661;
     }
 
     .navbar-default.affix .navbar-header .navbar-brand:hover,
@@ -205,20 +209,24 @@ aside, #credits {
 
     .navbar-default.affix .nav > li>a.tickets-btn,
     .navbar-default.affix .nav>li>a:focus {
-        background-color: #6D9BF1;
+        background-color: #e84661;
         margin-left: 0;
-        /**color: #222;**/
+        color: #fff;
     }
 
     .navbar-default.affix .nav > li>a:hover,
     .navbar-default.affix .nav>li>a:focus:hover {
-        color: #6D9BF1;
+        color: #e84661;
     }
 }
 
 .cover-img {
-    width: auto;
+    width: 100%;
     display: block;
+    margin: 0 auto;
+}
+
+.cover-img .img-responsive{
     margin: 0 auto;
 }
 
@@ -233,8 +241,8 @@ header {
     width: 100%;
     min-height: auto;
     text-align: center;
-    color: #fff;
-    background-color: black;
+    color: #e84661;
+    background-color: white;
     /**
     background-image: url(../img/header.jpg);
     background-position: center;
@@ -564,6 +572,8 @@ img::-moz-selection {
     color: #fff;
     background: 0 0;
 }
+
+
 
 body {
     webkit-tap-highlight-color: #222;

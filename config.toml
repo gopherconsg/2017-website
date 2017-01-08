@@ -28,10 +28,10 @@ theme = "hugo-creative-theme"
 
 	# Navigation
 	[params.navigation]
-		brand = "GoSG"
+		brand = "GopherCon Singapore"
 
 		[params.navigation.links]
-			#about     = "About"
+			#about    = "About"
 			speakers  = "Schedule"
 			venue     = "Venue"
 			events    = "Events"
