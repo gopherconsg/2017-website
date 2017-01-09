@@ -10,10 +10,12 @@
             {{ if and .Site.Params.hero.slogan .Site.Params.hero.subtitle }}
                 <hr>
             {{ end }}
+            <div class="btns-list">
             {{ with .Site.Params.hero.buttonText }}
-                <a href="#" class="btn btn-primary btn-xl register-btn">{{ . }}</a>
+            <a href="#" class="btn btn-primary btn-xl register-btn">{{ . }}</a>
             {{ end }}
             <a href="#" class="btn btn-primary btn-xl register-btn">Call for Proposal</a>
+            </div>
         </div>
     </div>
 </header>

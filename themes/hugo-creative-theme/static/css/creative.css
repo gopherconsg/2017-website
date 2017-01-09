@@ -16,7 +16,7 @@ body {
 
 hr {
     max-width: 50px;
-    border-color: #6D9BF1;
+    border-color: #e84661;
     border-width: 3px;
 }
 
@@ -25,7 +25,7 @@ hr.light {
 }
 
 a {
-    color: #6D9BF1;
+    color: #e84661;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -160,7 +160,14 @@ aside, #credits {
 
 .navbar-default .nav > li.active>a:hover,
 .navbar-default .nav>li.active>a:focus:hover {
+    color: #fff!important;
     background-color: #e84661;
+}
+
+.navbar-default .nav .open>a,
+.navbar-default .nav .open>a:focus {
+    color: #e78a99;
+    background-color: #ededed;
 }
 
 .navbar-default .navbar-toggle {
@@ -243,20 +250,12 @@ header {
     text-align: center;
     color: #e84661;
     background-color: white;
-    /**
-    background-image: url(../img/header.jpg);
-    background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    **/
 }
 
 header .header-content {
     position: relative;
     width: 100%;
-    padding: 100px 15px;
+    padding: 80px 15px;
     text-align: center;
     margin-top: 30px;
 }
@@ -285,12 +284,12 @@ header .header-content .header-content-inner p {
     }
 
     header .header-content {
-        position: absolute;
+/*        position: absolute;
         top: 50%;
         padding: 0 50px;
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
+        transform: translateY(-50%);*/
     }
 
     header .header-content .header-content-inner {
@@ -429,21 +428,28 @@ header .header-content .header-content-inner p {
 .btn-default:active,
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
-    border-color: #ededed;
+    border-color: none;
     color: #222;
-    background-color: black;
+    background-color: #efefef;
 }
 
 ul .dropdown-menu {
-  background-color: black;
+  border: none;
+  background-color: #efefef;
 }
 
 ul .dropdown-menu li a {
+  color: #e84661;
+}
+
+ul .dropdown-menu li a:hover {
   color: white;
+  background-color: #e84661;
 }
 
 .btn-default:active,
 .btn-default.active,
+
 .open > .dropdown-toggle.btn-default {
     background-image: none;
 }
@@ -541,10 +547,23 @@ fieldset[disabled] .btn-primary.active {
 .btn {
     border: 0;
     border-radius: 300px;
-    text-transform: uppercase;
+    letter-spacing: 1px;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 20px;
+}
+
+.btns-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.btns-list > a {
+    margin-left: 20px;
 }
 
 .btn-xl {
