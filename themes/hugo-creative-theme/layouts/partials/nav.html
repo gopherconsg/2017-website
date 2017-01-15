@@ -18,17 +18,17 @@
            <ul class="nav navbar-nav navbar-right">
                 {{ if and .Site.Params.about .Site.Params.navigation.links.about }}
                     <li>
-                        <a href="/about">{{ .Site.Params.navigation.links.about }}</a>
+                        <a href="#">{{ .Site.Params.navigation.links.about }}</a>
                     </li>
                 {{ end }}
                 {{ if and .Site.Params.speakers.list .Site.Params.navigation.links.speakers }}
                     <li class="dropdown">
                         <a href="#" class="dropdown-menutoggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Schedule<span class="caret"></span></a>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                            <li><a href="/speakers">Speakers</a></li>
-                            <li><a href="/programme">Programme</a></li>
+                            <li><a href="#">Speakers</a></li>
+                            <li><a href="#">Programme</a></li>
                             <li role="separator" class="divider"></li>
-                            <li><a href="/workshop">Workshop</a></li>
+                            <li><a href="#">Workshop</a></li>
                         </ul>
 
                     </li>
@@ -36,19 +36,19 @@
 
                 {{ if and .Site.Params.events .Site.Params.navigation.links.events}}
                     <li>
-                        <a href="/events">{{ .Site.Params.navigation.links.events}}</a>
+                        <a href="#">{{ .Site.Params.navigation.links.events}}</a>
                     </li>
                 {{ end }}
 
                 {{ if and .Site.Params.venue .Site.Params.navigation.links.venue}}
                     <li>
-                        <a href="/venue">{{ .Site.Params.navigation.links.venue}}</a>
+                        <a href="#">{{ .Site.Params.navigation.links.venue}}</a>
                     </li>
                 {{ end }}
 
                 {{ if and .Site.Params.partners .Site.Params.navigation.links.partners }}
                     <li>
-                        <a href="/partners">{{ .Site.Params.navigation.links.partners }}</a>
+                        <a href="#">{{ .Site.Params.navigation.links.partners }}</a>
                     </li>
                     <li>
 
