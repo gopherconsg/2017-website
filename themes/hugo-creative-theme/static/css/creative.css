@@ -230,7 +230,7 @@ aside, #credits {
 .cover-img {
     width: 100%;
     display: block;
-    margin: 0 auto;
+    margin: 50px auto;
 }
 
 .cover-img .img-responsive{
@@ -238,6 +238,7 @@ aside, #credits {
 }
 
 .cover-title {
+    margin-top: -10px;
 }
 
 .cover-subtitle {
