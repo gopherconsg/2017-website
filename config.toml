@@ -21,7 +21,7 @@ ignoreFiles = ["\\.md$"]
 	# To provide some metadata for search engines feel free to add some
 	# information about you and your website.
 	name = "GopherCon Singapore"
-	description = "gophercon singapore golang conference go"
+	description = "GopherCon Singapore is a Go programming language (Golang) conference in Southeast Asia."
 
 	# The path must be relative to the static folder
 	favicon = "favicon.ico"
