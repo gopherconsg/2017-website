@@ -227,6 +227,12 @@ aside, #credits {
     }
 }
 
+@media(max-width: 500px) {
+    .cover-img {
+        padding:0 50px;
+    }
+}
+
 .cover-img {
     width: 100%;
     display: block;
@@ -560,7 +566,9 @@ fieldset[disabled] .btn-primary.active {
     display: flex;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;            
 }
 
 .btns-list > a {
