@@ -33,11 +33,10 @@ ignoreFiles = ["\\.md$"]
 
 		[params.navigation.links]
 			#about    = "About"
-			speakers  = "Schedule"
+			#speakers  = "Schedule"
+			#events    = "Events"
 			venue     = "Venue"
-			events    = "Events"
-			partners  = "Partners"
-
+      #partners = "Partners"
 
 	# Hero section
 	[params.hero]
