@@ -15,7 +15,7 @@
         </div>
         {{ "<!-- Collect the nav links, forms, and other content for toggling -->" | safeHTML }}
         <div class="collapse navbar-collapse gopher-nav" id="bs-example-navbar-collapse-1">
-           <ul class="nav navbar-nav navbar-right hide">
+           <ul class="nav navbar-nav navbar-right">
                 {{ if and .Site.Params.about .Site.Params.navigation.links.about }}
                     <li>
                         <a href="#">{{ .Site.Params.navigation.links.about }}</a>
@@ -34,15 +34,15 @@
                     </li>
                 {{ end }}
 
-                {{ if and .Site.Params.events .Site.Params.navigation.links.events}}
+                {{ if and .Site.Params.events .Site.Params.navigation.links.events }}
                     <li>
-                        <a href="#">{{ .Site.Params.navigation.links.events}}</a>
+                        <a href="#">{{ .Site.Params.navigation.links.events }}</a>
                     </li>
                 {{ end }}
 
-                {{ if and .Site.Params.venue .Site.Params.navigation.links.venue}}
+                {{ if and .Site.Params.venue .Site.Params.navigation.links.venue }}
                     <li>
-                        <a href="#">{{ .Site.Params.navigation.links.venue}}</a>
+                        <a href="/venue">{{ .Site.Params.navigation.links.venue }}</a>
                     </li>
                 {{ end }}
 
@@ -50,11 +50,11 @@
                     <li>
                         <a href="#">{{ .Site.Params.navigation.links.partners }}</a>
                     </li>
-                    <li>
-
-                        <a href="http://www.ticketbase.com/events/gopherconsg2017" class="tickets-btn">Tickets</a>
-                    </li>
                 {{ end }}
+
+                <li>
+                    <a href="http://www.ticketbase.com/events/gopherconsg2017" class="tickets-btn">Tickets</a>
+                </li>
             </ul>
         </div>
         {{ "<!-- /.navbar-collapse -->" | safeHTML }}
