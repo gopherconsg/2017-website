@@ -2,7 +2,7 @@ baseurl = "https://gophercon.sg/"
 languageCode = "en-us"
 title = "GopherCon Singapore"
 theme = "hugo-creative-theme"
-ignoreFiles = ["\\.md$"]
+# ignoreFiles = ["\\.md$"]
 
 [params]
 
