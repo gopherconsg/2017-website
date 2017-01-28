@@ -36,6 +36,7 @@ theme = "hugo-creative-theme"
 			#speakers  = "Schedule"
 			#events    = "Events"
 			venue     = "Venue"
+			workshop = "Workshop"
       #partners = "Partners"
 
 	# Hero section

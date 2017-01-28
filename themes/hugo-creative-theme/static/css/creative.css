@@ -81,6 +81,18 @@ aside, #credits {
     padding: 50px 0;
 }
 
+figure.bill-photo img {
+    width: 300px;
+    margin: 25px 0;
+    border-radius: 50%;
+    border: 8px solid #DBDBDB;
+}
+
+figure.twitter-logo img {
+  width: 30px;
+  height: 30px;
+}
+
 .article {
     padding: 80px 50px;
 }
