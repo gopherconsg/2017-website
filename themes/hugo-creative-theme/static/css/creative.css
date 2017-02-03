@@ -105,9 +105,15 @@ h2.article-title {
 }
 
 .speaker {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: nowrap;
-  align-items: flex-start;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin: 0 0 2em 0;
 }
 
 .speaker-img {
@@ -299,7 +305,8 @@ img.speaker-img-responsive {
     }
 
     .speaker {
-      flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
     }
 
     .speaker-img {
@@ -310,7 +317,8 @@ img.speaker-img-responsive {
 
     .speaker-content {
       max-width: 100%;
-      flex: 0 0 auto;
+      -ms-flex: 0 0 start;
+          flex: 0 0 start;
     }
 }
 
