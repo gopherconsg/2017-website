@@ -24,7 +24,7 @@
                     <li>
                         <a href="/workshop">{{ .Site.Params.navigation.links.workshop }}</a>
                     </li>
-                {{ if and .Site.Params.speakers.list .Site.Params.navigation.links.speakers }}
+                {{ if and .Site.Params.speakers .Site.Params.navigation.links.speakers }}
                     <li><a href="/speakers">Speakers</a></li>
                 {{ end }}
 

@@ -1,28 +1,26 @@
 {{ partial "default_head.html" . }}
-<div class="single">
-  {{ partial "nav.html" . }}
+{{ partial "nav.html" . }}
 
-  <div class="row">
-    <div class="col-sm-9">
+<div class="row">
+  <div class="col-sm-9">
 
-      <article class="single" itemscope="itemscope" itemtype="http://schema.org/Article">
+    <article class="single" itemscope="itemscope" itemtype="http://schema.org/Article">
 
-        <div class="container article">
-          <div class="col-lg-6 text-left">
-            <h1 class="article-title">{{ .Title }}</h1>
+      <div class="container article">
+        <div class="col-lg-6 text-left">
+          <h1 class="article-title">{{ .Title }}</h1>
 
-            <div class="article-body" itemprop="articleBody">
-              {{ .Content }}
-            </div>
+          <div class="article-body" itemprop="articleBody">
+            {{ .Content }}
           </div>
         </div>
+      </div>
 
-      </article>
-    </div>
-
+    </article>
   </div>
 
-  {{ partial "credits.html" . }}
-
-  {{ partial "js.html" . }}
 </div>
+
+{{ partial "credits.html" . }}
+
+{{ partial "js.html" . }}

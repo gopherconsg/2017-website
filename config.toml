@@ -33,7 +33,7 @@ theme = "hugo-creative-theme"
 
 		[params.navigation.links]
 			#about    = "About"
-			speakers  = "Schedule"
+			speakers  = "Speakers"
 			#events    = "Events"
 			venue     = "Venue"
 			workshop = "Workshop"
