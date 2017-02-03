@@ -94,7 +94,61 @@ figure.twitter-logo img {
 }
 
 .article {
-    padding: 80px 50px;
+  padding: 80px 50px;
+}
+
+h2.article-title {
+  font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
+  color: #e84661;
+  font-weight: 700;
+  text-align: center;
+}
+
+.speaker {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+}
+
+.speaker-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 1.5em 0 0;
+}
+
+img.speaker-img-responsive {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.speaker-content {
+  max-width: 80%;
+  flex: 1;
+}
+
+.speaker-name {
+  font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
+  font-weight: 700;
+  font-size: 1.286em;
+  color: #1da79d;
+  padding-bottom: 0.5em;
+}
+
+.speaker-company {
+  color: #7e7e7e;
+  padding-bottom: 0.5em;
+}
+
+.speaker-bio {
+  padding-bottom: 0.5em;
+}
+
+.speaker-talk-link a {
+  text-decoration: underline;
+  color: #2a70c6;
 }
 
 .single {
@@ -242,6 +296,21 @@ figure.twitter-logo img {
 @media(max-width: 500px) {
     .cover-img {
         padding:0 50px;
+    }
+
+    .speaker {
+      flex-wrap: wrap;
+    }
+
+    .speaker-img {
+      width: 120px;
+      height: 120px;
+      margin: 0 1.5em 1.2em 0;
+    }
+
+    .speaker-content {
+      max-width: 100%;
+      flex: 0 0 auto;
     }
 }
 
@@ -580,7 +649,7 @@ fieldset[disabled] .btn-primary.active {
         -ms-flex-pack: center;
     justify-content: center;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;            
+        flex-wrap: wrap;
 }
 
 .btns-list > a {
