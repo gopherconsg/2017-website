@@ -122,9 +122,10 @@ h2.article-title {
 }
 
 .speaker-img {
-  width: 150px;
-  height: 150px;
+  width: 170px;
+  height: 170px;
   border-radius: 50%;
+  background: black;
   overflow: hidden;
   margin: 0 1.5em 0 0;
 }
@@ -140,21 +141,23 @@ img.speaker-img-responsive {
   flex: 1;
 }
 
-.speaker-name {
+.speaker-name a {
   font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
   font-weight: 700;
-  font-size: 1.286em;
+  font-size: 26px;
   color: #1da79d;
   padding-bottom: 0.5em;
 }
 
-.speaker-company {
+.speaker-caption {
   color: #7e7e7e;
+  font-size: 18px;
   padding-bottom: 0.5em;
 }
 
 .speaker-bio {
   padding-bottom: 0.5em;
+  font-size: 18px;
 }
 
 .speaker-talk-link a {

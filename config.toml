@@ -52,19 +52,23 @@ theme = "hugo-creative-theme"
 	# Speakers section
 	[params.speakers]
 		# headline = "At your service"
-    [params.speakers.speaker1]
-       profile = "Robert-Griesemer.jpg"
-       name = "Robert Griesemer"
-       company = "some company"
-       bio = "Awesome Hacker"
-       talk = "name of the talk"
+#    [params.speakers.speaker1]
+#       profile = "Robert-Griesemer.jpg"
+#       name = "Robert Griesemer"
+#       bio = "Awesome Hacker"
+#       talk = "name of the talk"
 
-    [params.speakers.speaker2]
-       profile = "Robert-Griesemer.jpg"
+    [params.speakers.speaker]
+       profile = "dave_cheney.jpg"
        name = "Dave Cheney"
-       company = "some company"
-       bio = "Awesome Hacker"
-       talk = "name of the talk"
+       brand = "https://twitter.com/davecheney"
+       bio = "David is a programmer, public speaker, and author from Sydney Australia. David has been a contributor to the Go project since February 2011 and is an organiser of GopherCon Denver. David currently works at Atlassian building Kubernetes infrastructure for their internal platform as a service."
+       #talk = "Talk: To be announced"
+
+    [params.speakers.speaker_gopher]
+       profile = "gopher_merlion.png"
+       name = "More Awesome Gophers"
+       caption = "To be announced"
 
   [params.events]
       headline    = "We've got what you need!"
