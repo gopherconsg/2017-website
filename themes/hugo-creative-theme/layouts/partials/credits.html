@@ -10,9 +10,20 @@
                   {{ if and .Site.Params.credits.headline .Site.Params.credits.description }}
                       <hr class="light">
                   {{ end }}
+                  <a class="social-links" href="https://twitter.com/gopherconsg" target="_blank">
+                    <p class="text-faded">
+                      <i class="fa fa-twitter fa-lg" aria-hidden="true"></i>
+                    </p>  
+                  </a>
+                  <a class="social-links" href="https://www.facebook.com/GopherConSG" target="_blank">
+                    <p class="text-faded">
+                      <i class="fa fa-facebook fa-lg" aria-hidden="true"></i>
+                    </p>  
+                  </a>
                   {{ with .Site.Params.credits.description }}
-                  <a href="mailto:hello@gophercon.sg">
-                    <p class="text-faded">{{ . | markdownify }}</p></a>
+                    <a href="mailto:hello@gophercon.sg">
+                        <p class="text-faded">{{ . | markdownify }}</p>
+                    </a>
                   {{ end }}
                   <div class="credit-text medium-text">&copy Copyright GopherCon.SG 2017</a></div>
                   <div class="credit-text small-text">The Gopher character is based on the Go mascot designed by Renee French and copyrighted under the <a href="https://creativecommons.org/licenses/by/3.0/us/">Creative Commons Attribution 3.0 license.</a></div>

@@ -121,6 +121,10 @@ figure.twitter-logo img {
   color: #fff;
 }
 
+.social-links p {
+  display: inline;
+}
+
 .no-padding {
     padding: 0;
 }
