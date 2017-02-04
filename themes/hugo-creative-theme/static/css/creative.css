@@ -296,18 +296,6 @@ img.speaker-img-responsive {
     .navbar-default.affix .navbar-header .navbar-brand:focus {
         color: #6D9BF1;
     }
-
-    .navbar-default.affix .nav > li>a.tickets-btn,
-    .navbar-default.affix .nav>li>a:focus {
-        background-color: #e84661;
-        margin-left: 0;
-        color: #fff;
-    }
-
-    .navbar-default.affix .nav > li>a:hover,
-    .navbar-default.affix .nav>li>a:focus:hover {
-        color: #e84661;
-    }
 }
 
 @media(max-width: 500px) {
