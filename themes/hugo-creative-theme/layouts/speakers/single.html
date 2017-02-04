@@ -11,16 +11,18 @@
           {{ range .Site.Params.speakers }}
           <div class="speaker">
 
-            <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+            <div class="col-lg-2 col-md-3 col-sm-4">
               <div class="speaker-img">
-                <img src="../../img/{{ .profile }}" class="speaker-img-responsive" alt="{{ .name }}">
+                <img src="../../img/{{ .profile }}" class="speaker-img-responsive center-block" alt="{{ .name }}">
               </div>
             </div>
-            <div class="col-lg-10 col-md-8 col-sm-8 col-xs-12">
+            <div class="col-lg-10 col-md-9 col-sm-8 col-xs-12">
               <div class="speaker-content">
                 <div class="speaker-name"><a href="{{ .brand }}">{{ .name }}</a></div>
                 <div class="speaker-caption">{{ .caption }}</div>
-                <div class="speaker-bio">{{ .bio }}</div>
+                {{ with .bio }}
+                  <div class="speaker-bio">{{ . | markdownify }}</div>
+                {{ end }}
                 <div class="speaker-talk-link"><a href="#">{{ .talk }}</a></div>
               </div>
             </div>

@@ -70,6 +70,12 @@ theme = "hugo-creative-theme"
        name = "More Awesome Gophers"
        caption = "To be announced"
 
+    [params.speakers.speaker2]
+       profile = "bill.jpg"
+       name = "William Kennedy"
+       brand = "https://twitter.com/goinggodotnet"
+       bio = "William Kennedy is a managing partner at Ardan Studio in Miami, Florida, a mobile, web, and systems development company. He is also a co-author of the book Go in Action, the author of the blog [GoingGo.Net](http://goinggo.net), and a founding member of [GoBridge](https://golangbridge.org/) which is working to increase Go adoption through diversity."
+
   [params.events]
       headline    = "We've got what you need!"
       description = "[Lorem](//google.com) ipsum dolor sit amet, consectetur adipisicing elit. Praesentium similique eos eligendi error veritatis harum, sed aliquid totam, quam minus neque enim est architecto, ad. Maiores, aliquid, vitae!"
