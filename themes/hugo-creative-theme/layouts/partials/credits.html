@@ -10,6 +10,7 @@
                   {{ if and .Site.Params.credits.headline .Site.Params.credits.description }}
                       <hr class="light">
                   {{ end }}
+                  <!--
                   <a class="social-links" href="https://twitter.com/gopherconsg" target="_blank">
                     <p class="text-faded">
                       <i class="fa fa-twitter fa-lg" aria-hidden="true"></i>
@@ -20,6 +21,7 @@
                       <i class="fa fa-facebook fa-lg" aria-hidden="true"></i>
                     </p>  
                   </a>
+                  -->
                   {{ with .Site.Params.credits.description }}
                     <a href="mailto:hello@gophercon.sg">
                         <p class="text-faded">{{ . | markdownify }}</p>
