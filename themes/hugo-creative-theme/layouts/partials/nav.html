@@ -24,16 +24,12 @@
                     <li>
                         <a href="/workshop">{{ .Site.Params.navigation.links.workshop }}</a>
                     </li>
+                {{ if and .Site.Params.speakers .Site.Params.navigation.links.speakers }}
+                    <li><a href="/speakers">Speakers</a></li>
+                {{ end }}
 
-                {{ if and .Site.Params.speakers.list .Site.Params.navigation.links.speakers }}
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-menutoggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Schedule<span class="caret"></span></a>
-                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                            <li><a href="#">Speakers</a></li>
-                            <li><a href="#">Programme</a></li>
-                        </ul>
-
-                    </li>
+                {{ if and .Site.Params.schedule.list .Site.Params.navigation.links.schedule }}
+                    <li><a href="#">Schedule</a></li>
                 {{ end }}
 
                 {{ if and .Site.Params.events .Site.Params.navigation.links.events }}

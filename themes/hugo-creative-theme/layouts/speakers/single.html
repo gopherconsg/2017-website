@@ -1,0 +1,27 @@
+{{ partial "default_head.html" . }}
+{{ partial "nav.html" . }}
+<article class="container article">
+  <h2 class="article-title">{{ .Title }}</h2>
+  <hr>
+  <div class="article-body" itemprop="articleBody">
+    <div class="speakers-list">
+      {{ range .Site.Params.speakers }}
+      <div class="speaker">
+        <div class="speaker-img">
+          <img src="../../img/{{ .profile }}" class="speaker-img-responsive" alt="{{ .name }}">
+        </div>
+        <div class="speaker-content">
+          <div class="speaker-name"><a href="{{ .brand }}">{{ .name }}</a></div>
+          <div class="speaker-caption">{{ .caption }}</div>
+          <div class="speaker-bio">{{ .bio }}</div>
+          <div class="speaker-talk-link"><a href="#">{{ .talk }}</a></div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</article>
+
+{{ partial "credits.html" . }}
+
+{{ partial "js.html" . }}

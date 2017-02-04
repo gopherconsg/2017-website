@@ -33,7 +33,7 @@ theme = "hugo-creative-theme"
 
 		[params.navigation.links]
 			#about    = "About"
-			#speakers  = "Schedule"
+			speakers  = "Speakers"
 			#events    = "Events"
 			venue     = "Venue"
 			workshop = "Workshop"
@@ -52,32 +52,31 @@ theme = "hugo-creative-theme"
 	# Speakers section
 	[params.speakers]
 		# headline = "At your service"
+#    [params.speakers.speaker1]
+#       profile = "Robert-Griesemer.jpg"
+#       name = "Robert Griesemer"
+#       bio = "Awesome Hacker"
+#       talk = "name of the talk"
 
-        [[params.speakers.list]]
-            profile-img = "robert"
-            title = "Robert Griesemer"
-            description = "Hacker"
+    [params.speakers.speaker]
+       profile = "dave_cheney.jpg"
+       name = "Dave Cheney"
+       brand = "https://twitter.com/davecheney"
+       bio = "David is a programmer, public speaker, and author from Sydney Australia. David has been a contributor to the Go project since February 2011 and is an organiser of GopherCon Denver. David currently works at Atlassian building Kubernetes infrastructure for their internal platform as a service."
+       #talk = "Talk: To be announced"
 
-        [[params.speakers.list]]
-            title = "Dave Cheney"
-            description = "Hacker"
-
-        [[params.speakers.list]]
-          title = "Brad Fitzpatrick"
-          description = "Hacker"
-
-        [[params.speakers.list]]
-            title = "William Kennedy"
-            description = "Hacker"
-
-        [[params.speakers.list]]
-            title = "You?"
-            description = "Submit a [CFP](https://www.papercall.io/gopherconsg2017)"
+    [params.speakers.speaker_gopher]
+       profile = "gopher_merlion.png"
+       name = "More Awesome Gophers"
+       caption = "To be announced"
 
   [params.events]
       headline    = "We've got what you need!"
       description = "[Lorem](//google.com) ipsum dolor sit amet, consectetur adipisicing elit. Praesentium similique eos eligendi error veritatis harum, sed aliquid totam, quam minus neque enim est architecto, ad. Maiores, aliquid, vitae!"
       buttonText  = "Get started!"
+
+  # Schedule section
+  [params.schedule]
 
   # Venue section
 	[params.venue]

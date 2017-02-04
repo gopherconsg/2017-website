@@ -7,11 +7,17 @@
 html,
 body {
     width: 100%;
-    height: 100%;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
 }
 
 body {
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    height: 100%;
+    margin-bottom: 196px;
 }
 
 hr {
@@ -85,7 +91,6 @@ figure.bill-photo img {
     width: 300px;
     margin: 25px 0;
     border-radius: 50%;
-    border: 8px solid #DBDBDB;
 }
 
 figure.twitter-logo img {
@@ -94,7 +99,68 @@ figure.twitter-logo img {
 }
 
 .article {
-    padding: 80px 50px;
+  padding: 80px 50px;
+}
+
+h2.article-title {
+  font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+.speaker {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin: 0 0 2em 0;
+}
+
+.speaker-img {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 1.5em 0 0;
+}
+
+img.speaker-img-responsive {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.speaker-content {
+  max-width: 80%;
+  flex: 1;
+}
+
+.speaker-name a {
+  font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  color: #1da79d;
+  padding-bottom: 0.5em;
+}
+
+.speaker-caption {
+  color: #7e7e7e;
+  font-size: 18px;
+  padding-bottom: 0.5em;
+}
+
+.speaker-bio {
+  padding-bottom: 0.5em;
+  font-size: 18px;
+}
+
+.speaker-talk-link a {
+  text-decoration: underline;
+  color: #2a70c6;
 }
 
 .single {
@@ -103,10 +169,11 @@ figure.twitter-logo img {
   min-height: 100%;
 }
 
-.credit-footer {
+.gopher-footer {
   position: absolute;
   bottom: 0;
   width: 100%;
+  height: 196px;
 }
 
 .small-text {
@@ -242,6 +309,23 @@ figure.twitter-logo img {
 @media(max-width: 500px) {
     .cover-img {
         padding:0 50px;
+    }
+
+    .speaker {
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+    }
+
+    .speaker-img {
+      width: 120px;
+      height: 120px;
+      margin: 0 1.5em 1.2em 0;
+    }
+
+    .speaker-content {
+      max-width: 100%;
+      -ms-flex: 0 0 start;
+          flex: 0 0 start;
     }
 }
 
@@ -580,7 +664,7 @@ fieldset[disabled] .btn-primary.active {
         -ms-flex-pack: center;
     justify-content: center;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;            
+        flex-wrap: wrap;
 }
 
 .btns-list > a {
