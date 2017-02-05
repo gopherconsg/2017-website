@@ -305,6 +305,7 @@ img.speaker-img-responsive {
     .speaker {
       display: block;
       margin: 0 auto;
+      min-height: 500px;
       -ms-flex-wrap: wrap;
           flex-wrap: wrap;
     }
