@@ -118,6 +118,7 @@ h2.article-title {
       -ms-flex-align: start;
           align-items: flex-start;
   padding-top: 55px;
+  margin-bottom: 20px;
 }
 
 .speaker-img {
