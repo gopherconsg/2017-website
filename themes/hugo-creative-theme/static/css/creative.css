@@ -21,7 +21,7 @@ body {
 }
 
 hr {
-    max-width: 50px;
+    max-width: 70px;
     border-color: #e84661;
     border-width: 3px;
 }
@@ -168,6 +168,123 @@ img.speaker-img-responsive {
   min-height: 100%;
 }
 
+.schedule-date-block {
+  padding-top: 0.5em;
+  margin: 0 auto 2em auto;
+  text-align: center;
+}
+
+.schedule-date-block hr {
+  max-width: 120px;
+  border-width: 2px;
+  margin: 0.5em auto;
+  border-color: #2a70c6;
+}
+
+.schedule-day {
+  font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
+  font-size: 18px;
+}
+
+.schedule-event {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+h2.timeline-header {
+  font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+  font-weight: 600;
+  font-size: 2em;
+  margin: 0 0 1em 0;
+}
+
+.timeline {
+  position: relative;
+}
+
+.timeline:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 20%;
+  background: #272727;
+  width: 1px;
+  height: 100%;
+}
+
+.timeline-point {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-color: #272727;
+  border-radius: 50%;
+  left: 20%;
+  margin-top: 2px;
+  margin-left: -7.5px;
+}
+
+@media(min-width: 992px) {
+  .timeline:before {
+    left: 10%;
+  }
+  .timeline-point {
+    left: 10%;
+  }
+}
+
+.timeline-block {
+  padding: 1em 0;
+}
+
+.timeline-time, .timeline-event {
+  padding: 0;
+}
+
+.timeline-time {
+  font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
+  color: #36bfbe;
+  padding-right: 5em;
+}
+
+h4.timeline-sub-block-header {
+  font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+  font-weight: 600;
+  font-size: 1.3em;
+  margin: 2em 0 0.8em 0;
+}
+
+.location-block {
+  display: flex;
+  align-items: center;
+}
+
+.speaker-block {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.speaker-brand {
+  text-align: center;
+}
+
+.speaker-brand .speaker-name {
+  color: #2a70c6;
+  font-size: 1.5em;
+  margin-bottom: 1.2em;
+}
+
+.speaker-block .speaker-bio {
+  margin-top: 1.2em;
+}
+
+.location-svg-icon {
+  width: 24px;
+  height: 32px;
+  margin-right: 1.5em;
+}
+
 .gopher-footer {
   position: absolute;
   bottom: 0;
@@ -299,6 +416,9 @@ img.speaker-img-responsive {
 }
 
 @media(max-width: 500px) {
+    .article {
+      padding: 80px 20px;
+    }
     .cover-img {
         padding:0 50px;
     }
@@ -328,6 +448,10 @@ img.speaker-img-responsive {
     .speaker-name a {
       text-align: center;
       display: block;
+    }
+
+    .speaker-block {
+      justify-content: center;
     }
 }
 
@@ -386,15 +510,6 @@ header .header-content .header-content-inner p {
 @media(min-width:768px) {
     header {
         min-height: 100%;
-    }
-
-    header .header-content {
-/*        position: absolute;
-        top: 50%;
-        padding: 0 50px;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);*/
     }
 
     header .header-content .header-content-inner {

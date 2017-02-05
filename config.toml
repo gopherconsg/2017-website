@@ -86,6 +86,19 @@ theme = "hugo-creative-theme"
   # Schedule section
   [params.schedule]
 
+  # Workshop section
+  [params.workshop]
+    timerange = "9.00am to 5.30pm"
+    title = "Ultimate Go Workshop"
+    date = "Thursday, 25th May"
+    venue = "(To be confirmed)"
+    venueinfo = "Lunch is provided"
+    type = "Workshop"
+    instructor = "William Kennedy"
+    profile = "bill.jpg"
+    twitterbrand = "https://twitter.com/goinggodotnet"
+    bio = "William Kennedy is a managing partner at Ardan Studio in Miami, Florida, a mobile, web, and systems development company. He is also a co-author of the book Go in Action, the author of the blog [GoingGo.Net](http://goinggo.net), and a founding member of [GoBridge](https://golangbridge.org/) which is working to increase Go adoption through diversity."
+
   # Venue section
 	[params.venue]
 		headline = "The Venue"
