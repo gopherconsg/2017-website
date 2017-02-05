@@ -232,6 +232,7 @@ img.speaker-img-responsive {
 .navbar-default .nav > li>a:hover,
 .navbar-default .nav>li>a:focus:hover {
     color: #fff;
+    background: #e84661;
 }
 
 .navbar-default .nav > li.active>a,
