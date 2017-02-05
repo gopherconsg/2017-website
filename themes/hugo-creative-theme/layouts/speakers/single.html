@@ -9,7 +9,7 @@
       <div class="article-body" itemprop="articleBody">
         <div class="speakers-list">
           {{ range .Site.Params.speakers }}
-          <div class="speaker">
+          <div class="speaker" id="{{ .fragmentId }}">
 
             <div class="col-lg-2 col-md-3 col-sm-4">
               <div class="speaker-img">

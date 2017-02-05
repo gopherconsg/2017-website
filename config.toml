@@ -61,6 +61,7 @@ theme = "hugo-creative-theme"
     [params.speakers.speaker]
        profile = "dave_cheney.jpg"
        name = "Dave Cheney"
+       fragmentId = "dave-cheney"
        brand = "https://twitter.com/davecheney"
        bio = "David is a programmer, public speaker, and author from Sydney, Australia. David has been a contributor to the Go project since February 2011 and is an organiser of GopherCon Denver. David currently works at Atlassian building Kubernetes infrastructure for their internal platform as a service."
        #talk = "Talk: To be announced"
@@ -73,6 +74,7 @@ theme = "hugo-creative-theme"
     [params.speakers.speaker2]
        profile = "bill.jpg"
        name = "William Kennedy"
+       fragmentId = "william-kennedy"
        brand = "https://twitter.com/goinggodotnet"
        bio = "William Kennedy is a managing partner at Ardan Studio in Miami, Florida, a mobile, web, and systems development company. He is also a co-author of the book Go in Action, the author of the blog [GoingGo.Net](http://goinggo.net), and a founding member of [GoBridge](https://golangbridge.org/) which is working to increase Go adoption through diversity."
 
