@@ -1,4 +1,4 @@
-baseurl = "https://gophercon.sg/"
+baseurl = "https://2017.gophercon.sg/"
 languageCode = "en-us"
 title = "GopherCon Singapore"
 theme = "hugo-creative-theme"
