@@ -1,0 +1,21 @@
+{{ partial "default_head.html" . }}
+{{ partial "nav.html" . }}
+
+<div class="container">
+  <div class="row">
+    <article class="container-fluid article">
+      <h2 class="article-title">{{ .Title }}</h2>
+      <hr>
+        <div>
+          <p>{{ .Content }}</p>
+        </div>        
+        <div class="gm-map">
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.828221386075!2d103.79676551370686!3d1.2764662990689866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1911f12998e9%3A0x43e454b88753032a!2sGoogle+Asia+Pacific!5e0!3m2!1sen!2ssg!4v1486358184449" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>       
+      </div> 
+    </article>
+  </div>
+</div>
+
+{{ partial "credits.html" . }}
+
+{{ partial "js.html" . }}
