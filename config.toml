@@ -92,20 +92,23 @@ theme = "hugo-creative-theme"
       buttonText  = "Get started!"
 
   # Talks section
-  [params.talks]
-    header = "Conference"
-    date = "Friday, 26th May"
-    type = "Talks"
+  [params.conference]
+      header = "Conference"
+      date = "Friday, 26th May"
+      type = "Talks"
 
-    [params.talks.talk01]
-      title = "Doors open"
-      class = "timeline-mono-header"
-      timerange = "8.00am to 9.00am"
+    [params.conference.talks]
+      [params.conference.talks.talk01]
+        title = "$GOPHERCONSG/doors/open"
+        class = "timeline-mono-header"
+        timerange = "8.00am to 9.00am"
 
-    [params.talks.talk02]
-      title = "Keynote"
-      class = "timeline-sub-header"
-      timerange = "9.00am to 9.30am"
+      [params.conference.talks.talk02]
+        title = "Keynote"
+        class = "timeline-sub-header"
+        timerange = "9.00am to 9.30am"
+        profile = "gopher_merlion.png"
+        name = "Awesome gopher"
 
   # Workshop section
   [params.workshop]

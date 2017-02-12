@@ -158,6 +158,14 @@ img.img-responsive.gold-sponsor-logos {
   margin: 0 1.5em 0 0;
 }
 
+.speaker-img-xs {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 1.5em 0 0;
+}
+
 img.speaker-img-responsive {
   display: block;
   width: 100%;
@@ -189,6 +197,12 @@ img.speaker-img-responsive {
 .speaker-talk-link a {
   text-decoration: underline;
   color: #2a70c6;
+}
+
+.speaker-bio-link a {
+  text-decoration: underline;
+  color: #2a70c6;
+  font-size: 1em;
 }
 
 .single {
@@ -292,6 +306,10 @@ h4.timeline-sub-block-header {
   font-weight: 600;
   font-size: 1.3em;
   margin: 2em 0 0.8em 0;
+}
+
+.talk-block {
+
 }
 
 .location-block {
@@ -505,12 +523,6 @@ h4.timeline-sub-block-header {
     .speaker-name a {
       text-align: center;
       display: block;
-    }
-
-    .speaker-block {
-      -ms-flex-pack: center;
-      -webkit-box-pack: center;
-      justify-content: center;
     }
 }
 

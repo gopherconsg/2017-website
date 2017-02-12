@@ -4,7 +4,7 @@
         {{ partial "head.html" . }}
     </head>
     <body id="page-top">
-        {{ if or .Site.Params.navigation.links.about .Site.Params.navigation.links.speakers Site.Params.navigation.links.talks .Site.Params.navigation.links.partners .Site.Params.navigation.links.venue .Site.Params.navigation.links.events}}
+        {{ if or .Site.Params.navigation.links.about .Site.Params.navigation.links.speakers .Site.Params.navigation.links.talks .Site.Params.navigation.links.partners .Site.Params.navigation.links.venue .Site.Params.navigation.links.events}}
             {{ partial "nav.html" . }}
         {{ end }}
 
