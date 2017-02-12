@@ -259,6 +259,11 @@ h4.timeline-sub-block-header {
   -ms-flex-align: center;
   -webkit-box-align: center;
       align-items: center;
+  margin-bottom: 2em;
+}
+
+.location-map {
+  max-width: 650px;
 }
 
 .speaker-block {
