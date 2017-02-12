@@ -1,0 +1,39 @@
+{{ partial "default_head.html" . }}
+{{ partial "nav.html" . }}
+
+<div class="container">
+  <div class="row">
+    <article class="container-fluid article">
+      <h2 class="article-title">{{ .Title }}</h2>
+      <hr>
+      <div class="schedule-date-block">
+        {{ with .Site.Params.talks.date }}
+        <div class="schedule-day">{{ . }}</div>
+        {{ end }}
+        <hr>
+        <div class="schedule-event">{{ .Site.Params.talks.type }}</div>
+      </div>
+      <div class="article-body" itemprop="articleBody">
+        <div class="timeline">
+          {{ range .Site.Params.talks }}
+          <div class="timeline-block clearfix">
+            <div class="timeline-point"></div>
+            <div class="timeline-time col-xs-3 col-md-2">test</div>
+            <div class="timeline-event col-xs-9 col-md-10">
+              <h4 class="{{ .class }}">{{ .title }}</h4>
+              <div>
+                  <p>Talk content</p>
+              </div>
+
+            </div>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </article>
+  </div>
+</div>
+
+{{ partial "credits.html" . }}
+
+{{ partial "js.html" . }}

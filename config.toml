@@ -34,6 +34,7 @@ theme = "hugo-creative-theme"
 		[params.navigation.links]
 			#about    = "About"
 			speakers  = "Speakers"
+      talks     = "Talks"
 			#events    = "Events"
 			venue     = "Venue"
 			workshop = "Workshop"
@@ -90,8 +91,21 @@ theme = "hugo-creative-theme"
       description = "[Lorem](//google.com) ipsum dolor sit amet, consectetur adipisicing elit. Praesentium similique eos eligendi error veritatis harum, sed aliquid totam, quam minus neque enim est architecto, ad. Maiores, aliquid, vitae!"
       buttonText  = "Get started!"
 
-  # Schedule section
-  [params.schedule]
+  # Talks section
+  [params.talks]
+    header = "Conference"
+    date = "Friday, 26th May"
+    type = "Talks"
+
+    [params.talks.talk01]
+      title = "Doors open"
+      class = "timeline-mono-header"
+      timerange = "8.00am to 9.00am"
+
+    [params.talks.talk02]
+      title = "Keynote"
+      class = "timeline-sub-header"
+      timerange = "9.00am to 9.30am"
 
   # Workshop section
   [params.workshop]

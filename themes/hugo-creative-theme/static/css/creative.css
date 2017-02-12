@@ -227,6 +227,18 @@ h2.timeline-header {
   margin: 0 0 1em 0;
 }
 
+h4.timeline-sub-header {
+  font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+  font-weight: 600;
+  margin: 0 0 1em 0;
+}
+
+h4.timeline-mono-header {
+  font-family: 'Source Code Pro', 'Inconsolata', 'Courier', monospace;
+  font-weight: 600;
+  margin: 0 0 1em 0;
+}
+
 .timeline {
   position: relative;
 }
