@@ -107,6 +107,21 @@ h2.article-title {
   text-align: center;
 }
 
+img.img-responsive.gold-sponsor-logos {
+  display: block;
+  width: auto;
+  height: 120px;
+  margin: 0 auto;
+}
+
+#partners {
+  background: #EDEDED;
+}
+
+.sponsor-logos {
+  margin-top: 100px;
+}
+
 .speaker {
   display: -ms-flexbox;
   display: -webkit-box;

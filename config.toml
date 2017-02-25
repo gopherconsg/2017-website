@@ -112,9 +112,8 @@ theme = "hugo-creative-theme"
 
 	# Partners section
 	[params.partners]
-		#headline = "Proudly sponsored by:"
-		headline = "Sponsors"
-		description = "Interested in becoming a sponsor? [Get in touch](mailto:hello@gophercon.sg)"
+		headline = "Partners"
+		description = "Interested in becoming a partner? [Get in touch](mailto:hello@gophercon.sg)"
 
 	# Footer section
 	[params.credits]

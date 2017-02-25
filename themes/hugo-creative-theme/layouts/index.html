@@ -16,8 +16,8 @@
             {{ partial "credits.html" . }}
         {{ end }}
 
-        {{ if .Site.Data.projects }}
-            {{ partial "modals.html" . }}
+        {{ if .Site.Params.partners }}
+            {{ partial "partners.html" . }}
         {{ end }}
 
         {{ partial "js.html" . }}
