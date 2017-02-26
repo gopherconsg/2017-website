@@ -110,6 +110,14 @@ theme = "hugo-creative-theme"
         profile = "gopher_merlion.png"
         name = "Awesome gopher"
 
+      [params.conference.talks.talk03]
+        title = "Awesome talk title"
+        class = "timeline-sub-header"
+        timerange = "9.30am to 10.00am"
+        profile = "gopher_merlion.png"
+        name = "Awesome gopher"
+        talk = "Information about the talk"
+
   # Workshop section
   [params.workshop]
     timerange = "9.00am to 5.30pm"
