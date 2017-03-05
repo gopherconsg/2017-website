@@ -107,11 +107,19 @@ h2.article-title {
   text-align: center;
 }
 
+.gold-sponsor-logos-row {
+  margin-top: 140px;
+}
+
 img.img-responsive.gold-sponsor-logos {
   display: block;
   width: auto;
   height: 120px;
   margin: 0 auto;
+}
+
+.sponsor-invite-text {
+  margin-top: 80px;
 }
 
 #partners {
