@@ -23,7 +23,12 @@
                 {{ with .bio }}
                   <div class="speaker-bio">{{ . | markdownify }}</div>
                 {{ end }}
-                <div class="speaker-talk-link"><a href="#">{{ .talk }}</a></div>
+                <div class="speaker-talk">
+                  <h3>{{ .title }}</h3>
+                  <div class="speaker-talk-abstract">
+                    <p>{{ .abstract }}</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
