@@ -156,6 +156,16 @@ theme = "hugo-creative-theme"
        title = "TDD for those who don't need it"
        abstract = "For the longest time, I don’t write tests.  Writing tests is chore, waste of time, doesn’t GTD. The snobbery of test community only turned me off even more; discouraging good developers from trying TDD.  Now I write tests first. This talk explains what clicked for me (and maybe you will too)"
 
+    [params.speakers.speaker_talk_i]
+       profile = "gopher_merlion.png"
+       name = "Kenneth Shaw"
+       fragmentId = "kenneth-shaw"
+       brand = "https://github.com/knq"
+       bio = "Kenneth “Ken” Shaw is a veteran systems developer, technologist, and entrepreneur and has worked with a number of companies/startups to build out large-scale Go applications, their associated architecture, automation, and deployments. Ken is the former CTO of Multiply.com, and previously built and sold two different tech companies. Currently, Ken is the Founder/CTO of Brankas, a company aiming to change the way banking is done in South East Asia."
+
+       title = "chromedp: A New Way to Drive the Web"
+       abstract = "Introduction to chromedp: a faster, simpler way to drive browsers in Go using the Chrome Debugging Protocol (for Chrome, Edge, Safari, etc) without external dependencies. Includes overview of using chromedp to rapidly author complex task hierarchies for scraping and unit testing/profiling web apps."
+
     # --------------------------------------
     [params.speakers.speaker_talk_z]
        profile = "gopher_merlion.png"
