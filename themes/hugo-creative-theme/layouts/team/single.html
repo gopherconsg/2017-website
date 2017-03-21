@@ -1,0 +1,39 @@
+{{ partial "default_head.html" . }}
+{{ partial "nav.html" . }}
+
+<div class="container-fluid">
+  <div class="row">
+    <article class="container-fluid article">
+      <h2 class="article-title">{{ .Title }}</h2>
+      <hr>
+      <div class="article-body" itemprop="articleBody">
+        <div class="speakers-list">
+          {{ range .Site.Params.speakers }}
+          <div class="speaker" id="{{ .fragmentId }}">
+
+            <div class="col-lg-2 col-md-3 col-sm-4">
+              <div class="speaker-img">
+                <img src="../../img/{{ .profile }}" class="speaker-img-responsive center-block" alt="{{ .name }}">
+              </div>
+            </div>
+            <div class="col-lg-10 col-md-9 col-sm-8 col-xs-12">
+              <div class="speaker-content">
+                <div class="speaker-name"><a href="{{ .brand }}">{{ .name }}</a></div>
+                <div class="speaker-caption">{{ .caption }}</div>
+                {{ with .bio }}
+                  <div class="speaker-bio">{{ . | markdownify }}</div>
+                {{ end }}
+                <div class="speaker-talk-link"><a href="#">{{ .talk }}</a></div>
+              </div>
+            </div>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </article>
+  </div>
+</div>
+
+{{ partial "credits.html" . }}
+
+{{ partial "js.html" . }}
