@@ -22,6 +22,9 @@
             <div class="timeline-event col-xs-9 col-md-10">
               <h4 class="{{ .class }}">{{ .title }}</h4>
               <div class="talk-block">
+                {{ with .talk }}
+                <p class="text-muted">{{ . | markdownify }}</p>
+                {{ end }}
                 {{ if and .profile .name }}
                 <div class="speaker-block">
                   <div class="speaker-img-xs">
@@ -29,9 +32,6 @@
                   </div>
                   <div class="speaker-bio-link"><a href="">{{ .name }}</a></div>
                 </div>
-                {{ end }}
-                {{ with .talk }}
-                <p class="text-muted">{{ . | markdownify }}</p>
                 {{ end }}
               </div>
             </div>
