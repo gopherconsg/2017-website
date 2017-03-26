@@ -9,34 +9,25 @@
                 {{ if and .Site.Params.partners.headline .Site.Params.partners.description }}
                     <hr class="primary">
                 {{ end }}
+            </div>
+            <div class="sponsor-logos">
+                <div class="gold-sponsor-logos-row">
+                    <div class="sponsor-text text-center">
+                        <h3>Gold Sponsors</h3>
+                    </div>
+                    <div class="col-lg-6 col-md-6 text-center">
+                        <img class="img-responsive gold-sponsor-logos" src="../../img/thoughtworks_logo.png" />
+                    </div>
+                    <div class="col-lg-6 col-md-6 text-center">
+                        <img class="img-responsive gold-sponsor-logos" src="../../img/singapore_power_logo.png" />
+                    </div>
+                </div>
+            </div>
+            <div class="sponsor-invite-text col-lg-8 col-lg-offset-2 text-center">
                 {{ with .Site.Params.partners.description }}
                     <p>{{ . | markdownify }}</p>
                 {{ end }}
             </div>
-            {{ if .Site.Params.partners.phone }}
-                <div class="
-                {{ if .Site.Params.partners.email }}
-                    col-lg-4
-                {{ else }}
-                    col-lg-8
-                {{ end }}
-                col-lg-offset-2 text-center">
-                    <i class="fa fa-phone fa-3x wow bounceIn"></i>
-                    <p>{{ .Site.Params.partners.phone }}</p>
-                </div>
-            {{ end }}
-            {{ if .Site.Params.partners.email }}
-                <div class="
-                {{ if .Site.Params.partners.phone }}
-                    col-lg-4
-                {{ else }}
-                    col-lg-8 col-lg-offset-2
-                {{ end }}
-                 text-center">
-                    <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                    <p><a href="mailto:{{ .Site.Params.partners.email }}">{{ .Site.Params.partners.email }}</a></p>
-                </div>
-            {{ end }}
         </div>
     </div>
 </section>
