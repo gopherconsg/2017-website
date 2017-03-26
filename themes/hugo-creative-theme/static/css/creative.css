@@ -108,12 +108,18 @@ h2.article-title {
 }
 
 .gold-sponsor-logos-row {
-  margin-top: 140px;
+  margin-top: 80px;
+  min-height: 120px;
+}
+
+.sponsor-text {
+  margin-bottom: 20px;
 }
 
 img.img-responsive.gold-sponsor-logos {
   display: block;
   width: auto;
+  min-width: 350px;
   height: 120px;
   margin: 0 auto;
 }
@@ -128,6 +134,7 @@ img.img-responsive.gold-sponsor-logos {
 
 .sponsor-logos {
   margin-top: 100px;
+  margin-bottom: 30px;
 }
 
 .speaker {
