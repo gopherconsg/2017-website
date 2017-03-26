@@ -35,7 +35,6 @@ theme = "hugo-creative-theme"
 			#about    = "About"
 			speakers  = "Speakers"
       talks     = "Talks"
-			#events    = "Events"
 			venue     = "Venue"
 			workshop = "Workshop"
       #partners = "Partners"
@@ -57,115 +56,116 @@ theme = "hugo-creative-theme"
        name = "Robert Griesemer"
        fragmentId = "robert-griesemer"
        brand = "https://github.com/griesemer"
+       keynote = "&dash; keynote speaker &dash;"
+       caption = "Google"
        bio = "Robert is one of the creators of the Go programming language. Before Go, he was involved in the design and implementation of Google's V8 JavaScript engine, the domain-specific language Sawzall, the Java HotSpot virtual machine, and Strongtalk, a high-performance Smalltalk system. Once upon a time, he built a vectorizing compiler for the iconic Cray X-MP. Robert works at Google in Mountain View, California, and loves energy-efficient things that \"just work\"."
+       title = "TBA"
 
     [params.speakers.speaker1]
        profile = "dave_cheney.jpg"
        name = "Dave Cheney"
        fragmentId = "dave-cheney"
        brand = "https://twitter.com/davecheney"
+       keynote = "&dash; keynote speaker &dash;"
+       caption = "Atlassian"
        bio = "David is a programmer, public speaker, and author from Sydney, Australia. David has been a contributor to the Go project since February 2011 and is an organiser of GopherCon Denver. David currently works at Atlassian building Kubernetes infrastructure for their internal platform as a service."
+       title = "Concurrency made easy"
 
     [params.speakers.speaker2]
        profile = "bill.jpg"
        name = "William Kennedy"
        fragmentId = "william-kennedy"
        brand = "https://twitter.com/goinggodotnet"
+       caption = "GoingGo.net, GoBridge"
        bio = "William Kennedy is a managing partner at Ardan Studio in Miami, Florida, a mobile, web, and systems development company. He is also a co-author of the book Go in Action, the author of the blog [GoingGo.Net](http://goinggo.net), and a founding member of [GoBridge](https://golangbridge.org/) which is working to increase Go adoption through diversity."
+       title = "TBA"
 
     [params.speakers.speaker3]
        profile = "ajey-gore.jpg"
        name = "Ajey Gore"
        fragmentId = "ajey-gore"
        brand = "https://twitter.com/goinggodotnet"
-       bio = "Ajey is the Group CTO of [Go-Jek](https://www.go-jek.com/). With 17 years of experience in building core technology strategy across diverse domains, Ajey has helped several businesses through technology transformations @ [ThoughtWorks](https://www.thoughtworks.com/) and [CodeIgnition](https://twitter.com/codeignition). Ajey is the founder of CodeIgnition and an active influencer in the technology community."
-       talk = "test2"
-
-    # --------------------------------------
+       caption = "Go-Jek"
+       bio = "Ajey is the Group CTO of [Go-Jek](https://www.go-jek.com/). With 17 years of experience in building core technology strategy across diverse domains, Ajey has helped several businesses through technology transformations at [ThoughtWorks](https://www.thoughtworks.com/) and [CodeIgnition](https://twitter.com/codeignition). Ajey is the founder of CodeIgnition and an active influencer in the technology community."
+       title = "TBA"
 
     [params.speakers.speaker_talk_a]
        profile = "gopher_merlion.png"
        name = "Do Xuan Huy"
        fragmentId = "do-xuan-huy"
        brand = "https://twitter.com/dxhuy"
+       caption = "LINE Corporation"
        bio = "Huy's a software engineer working at LINE corp in the group called engineering effeciency. His group mission is to reduce painful point of development process, building tools which make software development and shipment easier, more fun and safer. Previous to golang, he's a heavy user of Ruby, and also one of founder of Vietnam biggest Ruby user group. He'd also co-founded one of biggest social platform for software engineer in Vietname: kipalog (https://kipalog.com)"
        title = "How golang help us to solve organization scale problem at LINE"
-       abstract = "Grow to 400 millions registered users in only 5 years lead to not only scale problem of system, but also scale problem of organization. In LINE we solve that problem by building tools which improve engineer productivity and unify process. In this presentation i will introduce about those tools."
 
     [params.speakers.speaker_talk_b]
-       profile = "gopher_merlion.png"
+       profile = "chewxy.jpg"
        name = "Chewxy"
        fragmentId = "chewxy"
        brand = "https://twitter.com/chewxy"
        bio = "Xuanyi co-founded a startup that uses natural language to perform data science analysis."
        title = "Writing Efficient Generic Multidimensional Slices"
-       abstract = "Go has no generics. That makes things a lot harder. Or does it? This talk looks at various attempts in creating multidimensional arrays (think matrices and tensors) which are useful in deep learning and mathematics heavy applications. Even better - making them generic so they can take any type"
 
     [params.speakers.speaker_talk_c]
-       profile = "gopher_merlion.png"
+       profile = "matthewcampbell.png"
        name = "Matthew Campbell"
        fragmentId = "matthew-campbell"
        brand = "https://twitter.com/kanwisher"
-       bio = "Matthew Campbell is a Microservices scalability expert at DigitalOcean where he builds the future of cloud services. He is writting a book called “Microservices in Go”. He recently presented at GoLang UK, PromConf Berling, and Surge India, and blogs at “kanwisher.com”:http://kanwisher.com. Matthew was a founder of “Errplane”:http://errplane.com/ and “Langfight”:http://www.langfight.com. In the past he worked at Thomson Reuters, Bloomberg, Gucci, and Cartoon network."
+       caption = "DigitalOcean"
+       bio = "Matthew Campbell is a Microservices scalability expert at DigitalOcean where he builds the future of cloud services. He is writting a book called “Microservices in Go”. He recently presented at GoLang UK, PromConf Berling, and Surge India, and blogs at [kanwisher.com](http://kanwisher.com). Matthew was a founder of [Errplane](http://errplane.com/) and [Langfight](http://www.langfight.com). In the past he worked at Thomson Reuters, Bloomberg, Gucci, and Cartoon network."
        title = "Distributed Scheduler Hell"
-       abstract = "Containers are the future for all Microservice based apps. Where do you deploy them? How do you manage them? This talk will walk the audience through how distributed schedulers are built, and how the popular ones work. We will drill into details of how to build a distributed scheduler."
 
     [params.speakers.speaker_talk_d]
-       profile = "gopher_merlion.png"
+       profile = "daveappleton.png"
        name = "Dave Appleton"
        fragmentId = "dave-appleton"
        brand = "https://twitter.com/AppletonDave"
        bio = "Dave Appleton has been messing around with things since sometime before the dawn of time.  Mentored by people with more technical expertise than interpersonal skills and business sense, Dave started programming in 1968 in FORTRAN, building audio systems about the same time and messing with digital logic in 1976.  In the intervening time he has built world beating test systems, co-designed award winning products, run his own instrumentation company for over fifteen years, learned and actually used more than two dozen programming languages at a professional level, and taught courses from hobby to degree level on subjects as diverse as IOT, e-commerce and Image Processing. For the last three years he has been working on crypto currencies and financial technology."
        title = "Getting started on Ethereum for Go programmers"
-       abstract = "Learn how a Go programmer can get started with the hottest blockchain technology on the block with an easy tutorial that will demonstrate creating a simple smart contract and accessing it from a Go server as well as an Ethereum Wallet.  "
 
     [params.speakers.speaker_talk_e]
-       profile = "gopher_merlion.png"
+       profile = "ryanlaw.jpg"
        name = "Ryan Law"
        fragmentId = "ryan-law"
        brand = ""
+       caption = "Grab"
        bio = "Ryan is currently a Site Reliability Engineer at Grab. Being one of Grab’s early engineers, he has extensive knowledge of Grab’s system and he makes use of it by diving deep into different technical problems on a daily basis. Before switching over to his current role, Ryan led the web frontend and the Ruby on Rails teams at Grab."
        title = "Distributed Tracing in Grab"
-       abstract = "In Grab, we went from monolithic services to multiple smaller services in Go and we missed the ability to have detailed transaction traces of our code. In this talk, we will show you how we are re-implementing this ability in Go, a language that does not support thread-locals"
 
     [params.speakers.speaker_talk_f]
        profile = "gopher_merlion.png"
        name = "Ent"
        fragmentId = "ent"
        brand = ""
-       bio = "I am a Software Developer with over 8 years of experience where I have majorly worked with Python for Startups. Apart from building the software for the clients, one major issue I had to repeatedly deal with was the way Python was designed and how I had to fight against it to achieve the desired functionality. This led me to read and understand how Python internals work; which in turn only made me feel the need for a more elegantly designed runtime.  Initially I did not appreciate Go but the more I read about its design, the more it felt like a properly done language/runtime. After using it for a few small projects, it was easier to appreciate it and propose using it at work. I have learned a decent bit and continue to learn the interesting parts of Go but perhaps the path could have been easier if certain topics were more accessible.  Purpose of my Talk My proposed talk is about topics which I feel if I had a consolidated article/talk on, it would have been easier for me to learn faster while making fewer mistakes along the way. I believe that I might not be the only one who would benefit from these topics and I would like to present them to Go community if possible."
+       bio = "A Python turned Gopher software developer with 8 years of experience working in startup companies."
        title = "Runtime & Concurrency in Go."
-       abstract = "One popular feature of Go is Goroutine. Yet, not everyone knows how Goroutines work under the hood or what factors need to be taken into consideration when working with them. This talk attempts to explain rationale behind Green Threads & Coroutines and how Goroutines are linked to them."
 
     [params.speakers.speaker_talk_g]
-       profile = "gopher_merlion.png"
+       profile = "manishraijain.jpg"
        name = "Manish Rai Jain"
        fragmentId = "maish-rai-jain"
        brand = "https://twitter.com/manishrjain"
+       caption = "Dgraph"
        bio = "Manish is the founder of Dgraph, a distributed graph database built for production. He got thrust into distributed systems right out of college, working on real-time web indexing system at Google. He then led various projects to consolidate and serve knowledge graph right behind web search.  Implementing GTD and Zero Waste practices, Manish is into efficient and minimalist living. He loves cycling, swimming and ultra-light traveling."
-
        title = "Dgraph - A distributed graph database written in Go"
-       abstract = "Dgraph is a native and distributed graph database written entirely in Go. Efficient distributed joins is a hard problem and Dgraph tackles it head on. Since v0.1 release in Dec’15, Dgraph has seen a lot of activity, reaching close to 2000 Github stars and to front page of Hacker News multiple times."
 
     [params.speakers.speaker_talk_h]
-       profile = "gopher_merlion.png"
+       profile = "chewchoonkeat.jpg"
        name = "Choon Keat"
        fragmentId = "choon-keat"
        brand = "https://twitter.com/choonkeat"
+       caption = "Singapore Power Ltd"
        bio = "Started the Singapore Ruby Brigade, worked at Slideshare, believes strongly in and contributes to open source. Now available in Go."
-
        title = "TDD for those who don't need it"
-       abstract = "For the longest time, I don’t write tests.  Writing tests is chore, waste of time, doesn’t GTD. The snobbery of test community only turned me off even more; discouraging good developers from trying TDD.  Now I write tests first. This talk explains what clicked for me (and maybe you will too)"
 
     [params.speakers.speaker_talk_i]
-       profile = "gopher_merlion.png"
+       profile = "kennethshaw.jpg"
        name = "Kenneth Shaw"
        fragmentId = "kenneth-shaw"
        brand = "https://github.com/knq"
-       bio = "Kenneth “Ken” Shaw is a veteran systems developer, technologist, and entrepreneur and has worked with a number of companies/startups to build out large-scale Go applications, their associated architecture, automation, and deployments. Ken is the former CTO of Multiply.com, and previously built and sold two different tech companies. Currently, Ken is the Founder/CTO of Brankas, a company aiming to change the way banking is done in South East Asia."
-
+       caption = "Brankas"
+       bio = "Kenneth &ldquo;Ken&rdquo; Shaw is a veteran systems developer, technologist, and entrepreneur and has worked with a number of companies/startups to build out large-scale Go applications, their associated architecture, automation, and deployments. Ken is the former CTO of Multiply.com, and previously built and sold two different tech companies. Currently, Ken is the Founder/CTO of Brankas, a company aiming to change the way banking is done in South East Asia."
        title = "chromedp: A New Way to Drive the Web"
-       abstract = "Introduction to chromedp: a faster, simpler way to drive browsers in Go using the Chrome Debugging Protocol (for Chrome, Edge, Safari, etc) without external dependencies. Includes overview of using chromedp to rapidly author complex task hierarchies for scraping and unit testing/profiling web apps."
 
     # --------------------------------------
     [params.speakers.speaker_talk_z]
@@ -190,20 +190,142 @@ theme = "hugo-creative-theme"
         title = "$GOPHERCONSG/doors/open"
         class = "timeline-mono-header"
         timerange = "8.00am to 9.00am"
+        talk = "Registration"
 
       [params.conference.talks.talk02]
-        title = "Keynote"
+        title = "Opening Remarks"
         class = "timeline-sub-header"
-        timerange = "9.00am to 9.30am"
+        timerange = "9.00am to 9.15am"
         profile = "gopher_merlion.png"
-        name = "Awesome gopher"
+        name = "Chang Sau Sheong"
 
       [params.conference.talks.talk03]
-        title = "Awesome talk title"
+        title = "Opening Keynote"
         class = "timeline-sub-header"
-        timerange = "9.30am to 10.00am"
+        timerange = "9.15am to 10.00am"
+        profile = "Robert-Griesemer.jpg"
+        name = "Robert Griesemer"
+
+      [params.conference.talks.talk04]
+        title = "TBA"
+        class = "timeline-sub-header"
+        timerange = "10.00am to 10.30am"
         profile = "gopher_merlion.png"
-        name = "Awesome gopher"
+        name = "William Kennedy"
+
+      [params.conference.talks.talk05]
+        title = "How golang help us to solve organization scale problem at LINE"
+        class = "timeline-sub-header"
+        timerange = "10.30am to 11.00am"
+        profile = "gopher_merlion.png"
+        name = "Do Xuan Huy"
+        talk = "Grow to 400 millions registered users in only 5 years lead to not only scale problem of system, but also scale problem of organization. In LINE we solve that problem by building tools which improve engineer productivity and unify process. In this presentation i will introduce about those tools."
+
+      [params.conference.talks.talk06]
+        title = "$GOPHERCONSG/teabreak"
+        class = "timeline-mono-header"
+        timerange = "11.00am to 11.30am"
+        talk = "Coffee and snacks"
+
+      [params.conference.talks.talk07]
+        title = "Writing Efficient Generic Multidimensional Slices"
+        class = "timeline-sub-header"
+        timerange = "11.30am to 12.00pm"
+        profile = "gopher_merlion.png"
+        name = "Chewxy"
+        talk = "Go has no generics. That makes things a lot harder. Or does it? This talk looks at various attempts in creating multidimensional arrays (think matrices and tensors) which are useful in deep learning and mathematics heavy applications. Even better - making them generic so they can take any type."
+
+      [params.conference.talks.talk08]
+        title = "Distributed Scheduler Hell"
+        class = "timeline-sub-header"
+        timerange = "12.00pm to 12.30pm"
+        profile = "gopher_merlion.png"
+        name = "Matthew Campbell"
+        talk = "Containers are the future for all Microservice based apps. Where do you deploy them? How do you manage them? This talk will walk the audience through how distributed schedulers are built, and how the popular ones work. We will drill into details of how to build a distributed scheduler."
+
+      [params.conference.talks.talk09]
+        title = "Getting started on Ethereum for Go programmers"
+        class = "timeline-sub-header"
+        timerange = "12.30pm to 1.00pm"
+        profile = "gopher_merlion.png"
+        name = "Dave Appleton"
+        talk = "Learn how a Go programmer can get started with the hottest blockchain technology on the block with an easy tutorial that will demonstrate creating a simple smart contract and accessing it from a Go server as well as an Ethereum Wallet."
+
+      [params.conference.talks.talk10]
+        title = "$GOPHERCONSG/lunch/time"
+        class = "timeline-mono-header"
+        timerange = "1.00pm to 2.00pm"
+        talk = "Food for the brain"
+
+      [params.conference.talks.talk11]
+        title = "Distributed Tracing in Grab"
+        class = "timeline-sub-header"
+        timerange = "2.00pm to 2.30pm"
+        profile = "gopher_merlion.png"
+        name = "Ryan Law"
+        talk = "In Grab, we went from monolithic services to multiple smaller services in Go and we missed the ability to have detailed transaction traces of our code. In this talk, we will show you how we are re-implementing this ability in Go, a language that does not support thread-locals."
+
+      [params.conference.talks.talk12]
+        title = "Runtime & Concurrency in Go."
+        class = "timeline-sub-header"
+        timerange = "2.30pm to 3.00pm"
+        profile = "gopher_merlion.png"
+        name = "Ent"
+        talk = "One popular feature of Go is Goroutine. Yet, not everyone knows how Goroutines work under the hood or what factors need to be taken into consideration when working with them. This talk attempts to explain rationale behind Green Threads & Coroutines and how Goroutines are linked to them."
+
+       [params.conference.talks.talk13]
+        title = "TDD for those who don't need it"
+        class = "timeline-sub-header"
+        timerange = "3.00pm to 3.30pm"
+        profile = "gopher_merlion.png"
+        name = "Chew Choon Keat"
+        talk = "For the longest time, I don’t write tests. Writing tests is chore, waste of time, doesn’t GTD. The snobbery of test community only turned me off even more; discouraging good developers from trying TDD. Now I write tests first. This talk explains what clicked for me (and maybe you will too)"
+
+       [params.conference.talks.talk14]
+        title = "$GOPHERCONSG/teabreak"
+        class = "timeline-mono-header"
+        timerange = "3.30pm to 4.00pm"
+        talk = "Coffee and snacks"
+
+       [params.conference.talks.talk15]
+        title = "Dgraph - A distributed graph database written in Go"
+        class = "timeline-sub-header"
+        timerange = "4.00pm to 4.30pm"
+        profile = "gopher_merlion.png"
+        name = "Manish Rai Jain"
+        talk = "Dgraph is a native and distributed graph database written entirely in Go. Efficient distributed joins is a hard problem and Dgraph tackles it head on. Since v0.1 release in Dec’15, Dgraph has seen a lot of activity, reaching close to 2000 Github stars and to front page of Hacker News multiple times."
+
+       [params.conference.talks.talk16]
+        title = "chromedp: A New Way to Drive the Web"
+        class = "timeline-sub-header"
+        timerange = "4.30pm to 5.00pm"
+        profile = "gopher_merlion.png"
+        name = "Kenneth Shaw"
+        talk = "Introduction to chromedp: a faster, simpler way to drive browsers in Go using the Chrome Debugging Protocol (for Chrome, Edge, Safari, etc) without external dependencies. Includes overview of using chromedp to rapidly author complex task hierarchies for scraping and unit testing/profiling web apps."
+
+       [params.conference.talks.talk17]
+        title = "Closing Keynote: Concurrency made easy"
+        class = "timeline-sub-header"
+        timerange = "5.00pm to 5.45pm"
+        profile = "dave_cheney.jpg"
+        name = "Dave Cheney"
+
+       [params.conference.talks.talk18]
+        title = "Closing Remarks"
+        class = "timeline-sub-header"
+        timerange = "5.45pm to 6.00pm"
+        profile = "gopher_merlion.png"
+        name = "Chang Sau Sheong"
+
+       [params.conference.talks.talk19]
+        title = "GOODBYE"
+        class = "timeline-mono-header"
+        timerange = "6pm"
+
+       [params.conference.talks.talk20]
+        title = "$GOPHERCONSG/after/party"
+        class = "timeline-mono-header"
+        timerange = "7.00pm to 11.00pm"
         talk = "Information about the talk"
 
   # Workshop section
