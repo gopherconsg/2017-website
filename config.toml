@@ -224,18 +224,12 @@ theme = "hugo-creative-theme"
         talk = "Grow to 400 millions registered users in only 5 years lead to not only scale problem of system, but also scale problem of organization. In LINE we solve that problem by building tools which improve engineer productivity and unify process. In this presentation i will introduce about those tools."
 
       [params.conference.talks.talk06]
-        title = "To be announced"
-        class = "timeline-sub-header"
-        profile = "gopher_merlion.png"
-        name = "To be announced"
-
-      [params.conference.talks.talk07]
         title = "$GOPHERCONSG/teabreak"
         class = "timeline-mono-header"
         timerange = "11.00am"
         talk = "Coffee and snacks"
 
-      [params.conference.talks.talk08]
+      [params.conference.talks.talk07]
         title = "Writing Efficient Generic Multidimensional Slices"
         class = "timeline-sub-header"
         timerange = "11.30am"
@@ -244,7 +238,7 @@ theme = "hugo-creative-theme"
         fragmentid = "chewxy"
         talk = "Go has no generics. That makes things a lot harder. Or does it? This talk looks at various attempts in creating multidimensional arrays (think matrices and tensors) which are useful in deep learning and mathematics heavy applications. Even better - making them generic so they can take any type."
 
-      [params.conference.talks.talk09]
+      [params.conference.talks.talk08]
         title = "Distributed Scheduler Hell"
         class = "timeline-sub-header"
         profile = "matthewcampbell.png"
@@ -252,7 +246,7 @@ theme = "hugo-creative-theme"
         fragmentid = "matthew-campbell"
         talk = "Containers are the future for all Microservice based apps. Where do you deploy them? How do you manage them? This talk will walk the audience through how distributed schedulers are built, and how the popular ones work. We will drill into details of how to build a distributed scheduler."
 
-      [params.conference.talks.talk10]
+      [params.conference.talks.talk09]
         title = "Getting started on Ethereum for Go programmers"
         class = "timeline-sub-header"
         profile = "daveappleton.png"
@@ -260,13 +254,13 @@ theme = "hugo-creative-theme"
         fragmentid = "dave-appleton"
         talk = "Learn how a Go programmer can get started with the hottest blockchain technology on the block with an easy tutorial that will demonstrate creating a simple smart contract and accessing it from a Go server as well as an Ethereum Wallet."
 
-      [params.conference.talks.talk11]
+      [params.conference.talks.talk10]
         title = "$GOPHERCONSG/lunch/time"
         class = "timeline-mono-header"
         timerange = "1.00pm"
         talk = "Food for the brain"
 
-      [params.conference.talks.talk12]
+      [params.conference.talks.talk11]
         title = "Distributed Tracing in Grab"
         class = "timeline-sub-header"
         timerange = "2.00pm"
@@ -275,7 +269,7 @@ theme = "hugo-creative-theme"
         fragmentId = "ryan-law"
         talk = "In Grab, we went from monolithic services to multiple smaller services in Go and we missed the ability to have detailed transaction traces of our code. In this talk, we will show you how we are re-implementing this ability in Go, a language that does not support thread-locals."
 
-      [params.conference.talks.talk13]
+      [params.conference.talks.talk12]
         title = "Runtime & Concurrency in Go."
         class = "timeline-sub-header"
         profile = "gopher_merlion.png"
@@ -283,7 +277,7 @@ theme = "hugo-creative-theme"
         fragmentid = "ent"
         talk = "One popular feature of Go is Goroutine. Yet, not everyone knows how Goroutines work under the hood or what factors need to be taken into consideration when working with them. This talk attempts to explain rationale behind Green Threads & Coroutines and how Goroutines are linked to them."
 
-       [params.conference.talks.talk14]
+       [params.conference.talks.talk13]
         title = "TDD for those who don't need it"
         class = "timeline-sub-header"
         profile = "chewchoonkeat.jpg"
@@ -291,13 +285,13 @@ theme = "hugo-creative-theme"
         fragmentid = "choon-keat"
         talk = "For the longest time, I don’t write tests. Writing tests is chore, waste of time, doesn’t GTD. The snobbery of test community only turned me off even more; discouraging good developers from trying TDD. Now I write tests first. This talk explains what clicked for me (and maybe you will too)"
 
-       [params.conference.talks.talk15]
+       [params.conference.talks.talk14]
         title = "$GOPHERCONSG/teabreak"
         class = "timeline-mono-header"
         timerange = "3.30pm"
         talk = "Coffee and snacks"
 
-       [params.conference.talks.talk16]
+       [params.conference.talks.talk15]
         title = "Dgraph - A distributed graph database written in Go"
         class = "timeline-sub-header"
         timerange = "4.00pm"
@@ -305,7 +299,7 @@ theme = "hugo-creative-theme"
         name = "Manish Rai Jain"
         talk = "Dgraph is a native and distributed graph database written entirely in Go. Efficient distributed joins is a hard problem and Dgraph tackles it head on. Since v0.1 release in Dec’15, Dgraph has seen a lot of activity, reaching close to 2000 Github stars and to front page of Hacker News multiple times."
 
-       [params.conference.talks.talk17]
+       [params.conference.talks.talk16]
         title = "chromedp: A New Way to Drive the Web"
         class = "timeline-sub-header"
         profile = "kennethshaw.jpg"
@@ -313,14 +307,14 @@ theme = "hugo-creative-theme"
         fragmentid = "kenneth-shaw"
         talk = "Introduction to chromedp: a faster, simpler way to drive browsers in Go using the Chrome Debugging Protocol (for Chrome, Edge, Safari, etc) without external dependencies. Includes overview of using chromedp to rapidly author complex task hierarchies for scraping and unit testing/profiling web apps."
 
-       [params.conference.talks.talk18]
+       [params.conference.talks.talk17]
         title = "To be announced"
         class = "timeline-sub-header"
         profile = "ajey-gore.jpg"
         name = "Ajey Gore"
         fragmentid = "ajey-gore"
 
-       [params.conference.talks.talk19]
+       [params.conference.talks.talk18]
         title = "Closing Keynote: Concurrency made easy"
         class = "timeline-sub-header"
         profile = "dave_cheney.jpg"
@@ -340,10 +334,9 @@ theme = "hugo-creative-theme"
         timerange = "6pm"
 
        [params.conference.talks.talk22]
-        title = "$GOPHERCONSG/after/party"
+        title = "$GOPHERCONSG/after/party/🎉"
         class = "timeline-mono-header"
         timerange = "7.00pm to 11.00pm"
-        talk = "???🎉☺️"
 
   # Workshop section
   [params.workshop]
