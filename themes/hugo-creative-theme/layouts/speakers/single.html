@@ -1,7 +1,7 @@
 {{ partial "default_head.html" . }}
 {{ partial "nav.html" . }}
 
-<div class="container-fluid">
+<div class="container">
   <div class="row">
     <article class="container-fluid article">
       <h2 class="article-title">{{ .Title }}</h2>
@@ -9,21 +9,31 @@
       <div class="article-body" itemprop="articleBody">
         <div class="speakers-list">
           {{ range .Site.Params.speakers }}
-          <div class="speaker" id="{{ .fragmentId }}">
+          <div class="speaker" id="{{ .fragmentid }}">
 
-            <div class="col-lg-2 col-md-3 col-sm-4">
+            <div class="col-lg-3 col-md-3 col-sm-4">
               <div class="speaker-img">
                 <img src="../../img/{{ .profile }}" class="speaker-img-responsive center-block" alt="{{ .name }}">
               </div>
             </div>
-            <div class="col-lg-10 col-md-9 col-sm-8 col-xs-12">
+            <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12">
               <div class="speaker-content">
-                <div class="speaker-name"><a href="{{ .brand }}">{{ .name }}</a></div>
+                <div class="speaker-name">
+                  <a href="{{ .brand }}">{{ .name }}</a>
+                  {{ with .keynote }}
+                  <span class="keynote-tag">{{ . | markdownify }}</span>
+                  {{ end }}
+                </div>
                 <div class="speaker-caption">{{ .caption }}</div>
                 {{ with .bio }}
                   <div class="speaker-bio">{{ . | markdownify }}</div>
                 {{ end }}
-                <div class="speaker-talk-link"><a href="#">{{ .talk }}</a></div>
+                <div class="speaker-talk-link">
+                  <a href="/talks/#{{ .fragmentid }}">{{ .title }}</a>
+                  <div class="speaker-talk-abstract">
+                    <p>{{ .abstract }}</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

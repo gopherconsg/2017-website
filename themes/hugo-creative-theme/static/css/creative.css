@@ -155,6 +155,14 @@ img.img-responsive.gold-sponsor-logos {
   height: 170px;
   border-radius: 50%;
   overflow: hidden;
+  margin: 0 auto;
+}
+
+.speaker-img-xs {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
   margin: 0 1.5em 0 0;
 }
 
@@ -170,25 +178,37 @@ img.speaker-img-responsive {
 .speaker-name a {
   font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
   font-weight: 700;
-  font-size: 26px;
+  font-size: 1.5em;
   color: #1da79d;
   padding-bottom: 0.5em;
 }
 
 .speaker-caption {
   color: #7e7e7e;
-  font-size: 18px;
+  font-size: 1.2em;
   padding-bottom: 0.5em;
 }
 
 .speaker-bio {
   padding-bottom: 0.5em;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .speaker-talk-link a {
+  text-decoration: none;
+  font-size: 1.4em;
+  color: #2a70c6;
+}
+
+.speaker-bio-link a {
   text-decoration: underline;
   color: #2a70c6;
+  font-size: 1em;
+}
+
+.keynote-tag {
+  font-size: 1.1em;
+  color: #a69225;
 }
 
 .single {
@@ -220,10 +240,27 @@ img.speaker-img-responsive {
   font-size: 18px;
 }
 
+.schedule-notes {
+  margin-top: 1.3em;
+  font-style: italic;
+}
+
 h2.timeline-header {
   font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
   font-weight: 600;
   font-size: 2em;
+  margin: 0 0 1em 0;
+}
+
+h4.timeline-sub-header {
+  font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+  font-weight: 600;
+  margin: 0 0 1em 0;
+}
+
+h4.timeline-mono-header {
+  font-family: 'Source Code Pro', 'Inconsolata', 'Courier', monospace;
+  font-weight: 600;
   margin: 0 0 1em 0;
 }
 
@@ -280,6 +317,11 @@ h4.timeline-sub-block-header {
   font-weight: 600;
   font-size: 1.3em;
   margin: 2em 0 0.8em 0;
+}
+
+.talk-block p.text-muted {
+  padding-bottom: 1em;
+  margin: 0;
 }
 
 .location-block {
@@ -483,23 +525,21 @@ h4.timeline-sub-block-header {
 
     .speaker-content {
       max-width: 100%;
-      text-align: justify;
       margin-bottom: 50px;
       -ms-flex: 0 0 start;
         -webkit-box-flex: 0;
           flex: 0 0 start;
     }
 
-    .speaker-name a {
+    .speaker-name a, .keynote-tag, .speaker-caption {
       text-align: center;
       display: block;
     }
 
-    .speaker-block {
-      -ms-flex-pack: center;
-      -webkit-box-pack: center;
-      justify-content: center;
+    .keynote-tag, .speaker-caption {
+      padding-bottom: 0.5em;
     }
+
 }
 
 .cover-img {
