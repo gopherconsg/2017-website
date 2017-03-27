@@ -12,11 +12,12 @@
         {{ end }}
         <hr>
         <div class="schedule-event">{{ .Site.Params.conference.type }}</div>
+        <div class="schedule-notes">*Schedule is subjected to change*</div>
       </div>
       <div class="article-body" itemprop="articleBody">
         <div class="timeline">
         {{ range .Site.Params.conference.talks }}
-          <div class="timeline-block clearfix">
+          <div class="timeline-block clearfix" id="{{ .fragmentid }}">
             <div class="timeline-point"></div>
             <div class="timeline-time col-xs-3 col-md-2">{{ .timerange }}</div>
             <div class="timeline-event col-xs-9 col-md-10">
@@ -30,7 +31,7 @@
                   <div class="speaker-img-xs">
                     <img src="../../img/{{ .profile }}" class="speaker-img-responsive center-block" alt="{{ .name }}">
                   </div>
-                  <div class="speaker-bio-link"><a href="">{{ .name }}</a></div>
+                  <div class="speaker-bio-link"><a href="/speakers/#{{ .fragmentid }}">{{ .name }}</a></div>
                 </div>
                 {{ end }}
               </div>

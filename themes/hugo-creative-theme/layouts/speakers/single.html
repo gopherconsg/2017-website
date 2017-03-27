@@ -9,7 +9,7 @@
       <div class="article-body" itemprop="articleBody">
         <div class="speakers-list">
           {{ range .Site.Params.speakers }}
-          <div class="speaker" id="{{ .fragmentId }}">
+          <div class="speaker" id="{{ .fragmentid }}">
 
             <div class="col-lg-3 col-md-3 col-sm-4">
               <div class="speaker-img">
@@ -29,7 +29,7 @@
                   <div class="speaker-bio">{{ . | markdownify }}</div>
                 {{ end }}
                 <div class="speaker-talk-link">
-                  <a href="{{ .fragmentId }}">{{ .title }}</a>
+                  <a href="/talks/#{{ .fragmentid }}">{{ .title }}</a>
                   <div class="speaker-talk-abstract">
                     <p>{{ .abstract }}</p>
                   </div>

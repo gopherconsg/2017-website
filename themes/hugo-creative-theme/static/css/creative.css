@@ -240,6 +240,11 @@ img.speaker-img-responsive {
   font-size: 18px;
 }
 
+.schedule-notes {
+  margin-top: 1.3em;
+  font-style: italic;
+}
+
 h2.timeline-header {
   font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
   font-weight: 600;
