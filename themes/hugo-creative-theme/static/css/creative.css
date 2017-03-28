@@ -108,7 +108,6 @@ h2.article-title {
 }
 
 .gold-sponsor-logos-row {
-  min-height: 120px;
 }
 
 .sponsor-text {
@@ -132,9 +131,17 @@ img.img-responsive.silver-sponsor-logos {
   margin: 0 auto;
 }
 
+img.img-responsive.venue-sponsor-logos {
+  display: block;
+  width: auto;
+  max-width: 350px;
+  height: 100px;
+  margin: 0 auto;
+}
+
 .sponsor-row {
   margin-top: 140px;
-  margin-bottom: 160px;
+  margin-bottom: 220px;
 }
 
 .sponsor-invite-text {
