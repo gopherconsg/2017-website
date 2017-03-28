@@ -221,7 +221,7 @@ theme = "hugo-creative-theme"
         profile = "gopher_merlion.png"
         name = "Do Xuan Huy"
         fragmentid = "do-xuan-huy"
-        talk = "Grow to 400 millions registered users in only 5 years lead to not only scale problem of system, but also scale problem of organization. In LINE we solve that problem by building tools which improve engineer productivity and unify process. In this presentation i will introduce about those tools."
+        talk = "Growing to 400 million registered users in only 5 years led not only to scaling problems of computer systems, but also scaling issues within the organization. In LINE, we solved that problem by building tools which improve engineer productivity and unified processes. In this presentation, I will introduce those tools."
 
       [params.conference.talks.talk06]
         title = "$GOPHERCONSG/teabreak"
@@ -275,7 +275,7 @@ theme = "hugo-creative-theme"
         profile = "gopher_merlion.png"
         name = "Ent"
         fragmentid = "ent"
-        talk = "One popular feature of Go is Goroutine. Yet, not everyone knows how Goroutines work under the hood or what factors need to be taken into consideration when working with them. This talk attempts to explain rationale behind Green Threads & Coroutines and how Goroutines are linked to them."
+        talk = "One popular feature of Go is Goroutine. Yet, not everyone knows how Goroutines work under the hood or what factors need to be taken into consideration when working with them. This talk attempts to explain the rationale behind Green Threads & Coroutines and how Goroutines are linked to them."
 
        [params.conference.talks.talk13]
         title = "TDD for those who don't need it"
@@ -283,7 +283,7 @@ theme = "hugo-creative-theme"
         profile = "chewchoonkeat.jpg"
         name = "Chew Choon Keat"
         fragmentid = "choon-keat"
-        talk = "For the longest time, I don’t write tests. Writing tests is chore, waste of time, doesn’t GTD. The snobbery of test community only turned me off even more; discouraging good developers from trying TDD. Now I write tests first. This talk explains what clicked for me (and maybe you will too)"
+        talk = "For the longest time, I didn’t write tests. Writing tests is a chore, a waste of time, and doesn’t GTD. The snobbery of the test community only turned me off even more; discouraging good developers from trying TDD. Now, I write tests first. This talk explains what clicked for me (and maybe it will for you too)"
 
        [params.conference.talks.talk14]
         title = "$GOPHERCONSG/teabreak"
@@ -297,7 +297,7 @@ theme = "hugo-creative-theme"
         timerange = "4.00pm"
         profile = "manishraijain.jpg"
         name = "Manish Rai Jain"
-        talk = "Dgraph is a native and distributed graph database written entirely in Go. Efficient distributed joins is a hard problem and Dgraph tackles it head on. Since v0.1 release in Dec’15, Dgraph has seen a lot of activity, reaching close to 2000 Github stars and to front page of Hacker News multiple times."
+        talk = "Dgraph is a native and distributed graph database written entirely in Go. Efficient distributed joins is a hard problem and Dgraph tackles it head on. Since v0.1 release in Dec’15, Dgraph has seen a lot of activity, reaching close to 2000 Github stars and featuring on the front page of Hacker News multiple times."
 
        [params.conference.talks.talk16]
         title = "chromedp: A New Way to Drive the Web"
