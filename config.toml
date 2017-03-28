@@ -308,18 +308,18 @@ theme = "hugo-creative-theme"
         talk = "Introduction to chromedp: a faster, simpler way to drive browsers in Go using the Chrome Debugging Protocol (for Chrome, Edge, Safari, etc) without external dependencies. Includes overview of using chromedp to rapidly author complex task hierarchies for scraping and unit testing/profiling web apps."
 
        [params.conference.talks.talk17]
-        title = "To be announced"
-        class = "timeline-sub-header"
-        profile = "ajey-gore.jpg"
-        name = "Ajey Gore"
-        fragmentid = "ajey-gore"
-
-       [params.conference.talks.talk18]
-        title = "Closing Keynote: Concurrency made easy"
+        title = "Concurrency made easy"
         class = "timeline-sub-header"
         profile = "dave_cheney.jpg"
         name = "Dave Cheney"
         fragmentid = "dave-cheney"
+
+       [params.conference.talks.talk18]
+        title = "Closing Keynote: To be announced"
+        class = "timeline-sub-header"
+        profile = "ajey-gore.jpg"
+        name = "Ajey Gore"
+        fragmentid = "ajey-gore"
 
        [params.conference.talks.talk20]
         title = "Closing Remarks"
