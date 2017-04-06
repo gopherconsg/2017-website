@@ -247,12 +247,12 @@ theme = "hugo-creative-theme"
         talk = "Containers are the future for all Microservice based apps. Where do you deploy them? How do you manage them? This talk will walk the audience through how distributed schedulers are built, and how the popular ones work. We will drill into details of how to build a distributed scheduler."
 
       [params.conference.talks.talk09]
-        title = "Getting started on Ethereum for Go programmers"
+        title = "Native Go Development on GCP with the Context Package"
         class = "timeline-sub-header"
-        profile = "daveappleton.png"
-        name = "Dave Appleton"
-        fragmentid = "dave-appleton"
-        talk = "Learn how a Go programmer can get started with the hottest blockchain technology on the block with an easy tutorial that will demonstrate creating a simple smart contract and accessing it from a Go server as well as an Ethereum Wallet."
+        profile = "gopher_merlion.png"
+        name = "Ian Lewis and Shilin Wu"
+        fragmentid = "ian-lewis-and-shilin-wu"
+        talk = "Ian and Shilin will tag team in this presentation. The talk will demonstrate(via Kubernetes) how well golang is supported in Cloud Platforms from development, API integration to deployment and operations. In addition, a deep dive into Golang context package and best practices in high concurrency programming will also be covered."
 
       [params.conference.talks.talk10]
         title = "$GOPHERCONSG/lunch/time"
@@ -308,13 +308,21 @@ theme = "hugo-creative-theme"
         talk = "Introduction to chromedp: a faster, simpler way to drive browsers in Go using the Chrome Debugging Protocol (for Chrome, Edge, Safari, etc) without external dependencies. Includes overview of using chromedp to rapidly author complex task hierarchies for scraping and unit testing/profiling web apps."
 
        [params.conference.talks.talk17]
+        title = "Getting started on Ethereum for Go programmers"
+        class = "timeline-sub-header"
+        profile = "daveappleton.png"
+        name = "Dave Appleton"
+        fragmentid = "dave-appleton"
+        talk = "Learn how a Go programmer can get started with the hottest blockchain technology on the block with an easy tutorial that will demonstrate creating a simple smart contract and accessing it from a Go server as well as an Ethereum Wallet."
+
+       [params.conference.talks.talk18]
         title = "Concurrency made easy"
         class = "timeline-sub-header"
         profile = "dave_cheney.jpg"
         name = "Dave Cheney"
         fragmentid = "dave-cheney"
 
-       [params.conference.talks.talk18]
+       [params.conference.talks.talk19]
         title = "Closing Keynote: To be announced"
         class = "timeline-sub-header"
         profile = "ajey-gore.jpg"
