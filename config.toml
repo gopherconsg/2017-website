@@ -196,7 +196,7 @@ theme = "hugo-creative-theme"
         title = "Opening Remarks"
         class = "timeline-sub-header"
         timerange = "9.00am"
-        profile = "gopher_merlion.png"
+        profile = "Chang-Sau-Sheong.jpg"
         name = "Chang Sau Sheong"
 
       [params.conference.talks.talk03]
