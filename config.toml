@@ -333,7 +333,7 @@ theme = "hugo-creative-theme"
         title = "Closing Remarks"
         class = "timeline-sub-header"
         timerange = "5.45pm"
-        profile = "gopher_merlion.png"
+        profile = "Chang-Sau-Sheong.jpg"
         name = "Chang Sau Sheong"
 
        [params.conference.talks.talk21]
