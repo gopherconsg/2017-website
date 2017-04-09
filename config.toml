@@ -167,6 +167,15 @@ theme = "hugo-creative-theme"
        bio = "Kenneth &ldquo;Ken&rdquo; Shaw is a veteran systems developer, technologist, and entrepreneur and has worked with a number of companies/startups to build out large-scale Go applications, their associated architecture, automation, and deployments. Ken is the former CTO of Multiply.com, and previously built and sold two different tech companies. Currently, Ken is the Founder/CTO of Brankas, a company aiming to change the way banking is done in South East Asia."
        title = "chromedp: A New Way to Drive the Web"
 
+     [params.speakers.speaker_talk_j]
+        profile = "ian-lewis.png"
+        name = "Ian Lewis"
+        fragmentid = "ian-lewis-and-shilin-wu"
+        brand = "https://github.com/IanLewis"
+        caption = "Google"
+        bio = "Ian is a Developer Advocate for Google Cloud Platform based Tokyo, Japan. Ian is a Python and Go developer who is passionate about developer communities. He previously co-founded PyCon JP, the largest Python event in Japan. Ian loves learning about how systems work end-to end and spends his time writing and deploying distributed web apps to his favorite container orchestrator (Kubernetes)."
+        title = "Native Go Development on GCP with the Context Package"
+
     # --------------------------------------
     [params.speakers.speaker_talk_z]
        profile = "gopher_merlion.png"
