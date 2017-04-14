@@ -59,14 +59,13 @@ theme = "hugo-creative-theme"
        keynote = "&dash; keynote speaker &dash;"
        caption = "Google"
        bio = "Robert is one of the creators of the Go programming language. Before Go, he was involved in the design and implementation of Google's V8 JavaScript engine, the domain-specific language Sawzall, the Java HotSpot virtual machine, and Strongtalk, a high-performance Smalltalk system. Once upon a time, he built a vectorizing compiler for the iconic Cray X-MP. Robert works at Google in Mountain View, California, and loves energy-efficient things that \"just work\"."
-       title = "TBA"
+       title = "Exporting Go"
 
     [params.speakers.speaker1]
        profile = "dave_cheney.jpg"
        name = "Dave Cheney"
        fragmentid = "dave-cheney"
        brand = "https://twitter.com/davecheney"
-       keynote = "&dash; keynote speaker &dash;"
        caption = "Atlassian"
        bio = "David is a programmer, public speaker, and author from Sydney, Australia. David has been a contributor to the Go project since February 2011 and is an organiser of GopherCon Denver. David currently works at Atlassian building Kubernetes infrastructure for their internal platform as a service."
        title = "Concurrency made easy"
@@ -78,12 +77,13 @@ theme = "hugo-creative-theme"
        brand = "https://twitter.com/goinggodotnet"
        caption = "GoingGo.net, GoBridge"
        bio = "William Kennedy is a managing partner at Ardan Studio in Miami, Florida, a mobile, web, and systems development company. He is also a co-author of the book Go in Action, the author of the blog [GoingGo.Net](http://goinggo.net), and a founding member of [GoBridge](https://golangbridge.org/) which is working to increase Go adoption through diversity."
-       title = "TBA"
+       title = "Go Concurrency Live"
 
     [params.speakers.speaker3]
        profile = "ajey-gore.jpg"
        name = "Ajey Gore"
        fragmentid = "ajey-gore"
+       keynote = "&dash; keynote speaker &dash;"
        brand = "https://twitter.com/goinggodotnet"
        caption = "Go-Jek"
        bio = "Ajey is the Group CTO of [Go-Jek](https://www.go-jek.com/). With 17 years of experience in building core technology strategy across diverse domains, Ajey has helped several businesses through technology transformations at [ThoughtWorks](https://www.thoughtworks.com/) and [CodeIgnition](https://twitter.com/codeignition). Ajey is the founder of CodeIgnition and an active influencer in the technology community."
@@ -177,11 +177,6 @@ theme = "hugo-creative-theme"
         title = "Native Go Development on GCP with the Context Package"
 
     # --------------------------------------
-    [params.speakers.speaker_talk_z]
-       profile = "gopher_merlion.png"
-       name = "More Awesome Gophers"
-       caption = "To be announced"
-
 
   [params.events]
       headline    = "We've got what you need!"
@@ -209,20 +204,22 @@ theme = "hugo-creative-theme"
         name = "Chang Sau Sheong"
 
       [params.conference.talks.talk03]
-        title = "Opening Keynote"
+        title = "Opening Keynote: Exporting Go"
         class = "timeline-sub-header"
         timerange = "9.15am"
         profile = "Robert-Griesemer.jpg"
         name = "Robert Griesemer"
         fragmentid = "robertgriesemer"
+        talk = "From inception, Go has been designed to scale from the small to the very large; Go packages together with import and export are key language features for achieving that software scalability. Sprinkled with historic tidbits, this talk explains the inner workings of import and export, and how these mechanisms enable robust separate compilation of packages. We conclude with a discussion of how our design trade-offs affect scalability."
 
       [params.conference.talks.talk04]
-        title = "To be announced"
+        title = "Go Concurrency Live"
         class = "timeline-sub-header"
         timerange = "10.00am"
         profile = "williamkennedy.jpg"
         name = "William Kennedy"
         fragmentid = "william-kennedy"
+        talk = "Go is known for its powerful concurrency primitives but why? Why is concurrency in Go so powerful and an important aspect of future software development? In this talk we will discuss the importance of having languages that provide concurrency support and see how Go’s constructs make it easy to use and reason about for modern software"
 
       [params.conference.talks.talk05]
         title = "How golang help us to solve organization scale problem at LINE"
@@ -330,6 +327,7 @@ theme = "hugo-creative-theme"
         profile = "dave_cheney.jpg"
         name = "Dave Cheney"
         fragmentid = "dave-cheney"
+        talk = "Go's headline feature is its simple, lightweight concurrency, but most Go programmers that stick with the language for a while tend to look back on their early efforts and say things like \"wow, I really went overboard with channels\" or \"I went crazy with goroutines, it was impossible to understand what the program did\". Clearly there is a disconnect between the concurrency primitives that the language offers, and the expectations of many why come to Go for exactly those features. This talk will explore some strategies for using with concurrency in Go without the pitfalls."
 
        [params.conference.talks.talk19]
         title = "Closing Keynote: To be announced"
