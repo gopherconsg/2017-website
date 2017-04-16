@@ -2,7 +2,6 @@ baseurl = "https://2017.gophercon.sg/"
 languageCode = "en-us"
 title = "GopherCon Singapore"
 theme = "hugo-creative-theme"
-# ignoreFiles = ["\\.md$"]
 
 [params]
 
@@ -283,7 +282,7 @@ theme = "hugo-creative-theme"
         fragmentid = "ent"
         talk = "One popular feature of Go is Goroutine. Yet, not everyone knows how Goroutines work under the hood or what factors need to be taken into consideration when working with them. This talk attempts to explain the rationale behind Green Threads & Coroutines and how Goroutines are linked to them."
 
-       [params.conference.talks.talk13]
+      [params.conference.talks.talk13]
         title = "TDD for those who don't need it"
         class = "timeline-sub-header"
         profile = "chewchoonkeat.jpg"
@@ -291,13 +290,13 @@ theme = "hugo-creative-theme"
         fragmentid = "choon-keat"
         talk = "For the longest time, I didn’t write tests. Writing tests is a chore, a waste of time, and doesn’t GTD. The snobbery of the test community only turned me off even more; discouraging good developers from trying TDD. Now, I write tests first. This talk explains what clicked for me (and maybe it will for you too)"
 
-       [params.conference.talks.talk14]
+      [params.conference.talks.talk14]
         title = "$GOPHERCONSG/teabreak"
         class = "timeline-mono-header"
         timerange = "3.30pm"
         talk = "Coffee and snacks"
 
-       [params.conference.talks.talk15]
+      [params.conference.talks.talk15]
         title = "Dgraph - A distributed graph database written in Go"
         class = "timeline-sub-header"
         timerange = "4.00pm"
@@ -305,7 +304,7 @@ theme = "hugo-creative-theme"
         name = "Manish Rai Jain"
         talk = "Dgraph is a native and distributed graph database written entirely in Go. Efficient distributed joins is a hard problem and Dgraph tackles it head on. Since v0.1 release in Dec’15, Dgraph has seen a lot of activity, reaching close to 2000 Github stars and featuring on the front page of Hacker News multiple times."
 
-       [params.conference.talks.talk16]
+      [params.conference.talks.talk16]
         title = "chromedp: A New Way to Drive the Web"
         class = "timeline-sub-header"
         profile = "kennethshaw.jpg"
@@ -313,7 +312,7 @@ theme = "hugo-creative-theme"
         fragmentid = "kenneth-shaw"
         talk = "Introduction to chromedp: a faster, simpler way to drive browsers in Go using the Chrome Debugging Protocol (for Chrome, Edge, Safari, etc) without external dependencies. Includes overview of using chromedp to rapidly author complex task hierarchies for scraping and unit testing/profiling web apps."
 
-       [params.conference.talks.talk17]
+      [params.conference.talks.talk17]
         title = "Getting started on Ethereum for Go programmers"
         class = "timeline-sub-header"
         profile = "daveappleton.png"
@@ -321,7 +320,7 @@ theme = "hugo-creative-theme"
         fragmentid = "dave-appleton"
         talk = "Learn how a Go programmer can get started with the hottest blockchain technology on the block with an easy tutorial that will demonstrate creating a simple smart contract and accessing it from a Go server as well as an Ethereum Wallet."
 
-       [params.conference.talks.talk18]
+      [params.conference.talks.talk18]
         title = "Concurrency made easy"
         class = "timeline-sub-header"
         profile = "dave_cheney.jpg"
@@ -329,26 +328,26 @@ theme = "hugo-creative-theme"
         fragmentid = "dave-cheney"
         talk = "Go's headline feature is its simple, lightweight concurrency, but most Go programmers that stick with the language for a while tend to look back on their early efforts and say things like \"wow, I really went overboard with channels\" or \"I went crazy with goroutines, it was impossible to understand what the program did\". Clearly there is a disconnect between the concurrency primitives that the language offers, and the expectations of many why come to Go for exactly those features. This talk will explore some strategies for using with concurrency in Go without the pitfalls."
 
-       [params.conference.talks.talk19]
+      [params.conference.talks.talk19]
         title = "Closing Keynote: To be announced"
         class = "timeline-sub-header"
         profile = "ajey-gore.jpg"
         name = "Ajey Gore"
         fragmentid = "ajey-gore"
 
-       [params.conference.talks.talk20]
+      [params.conference.talks.talk20]
         title = "Closing Remarks"
         class = "timeline-sub-header"
         timerange = "5.45pm"
         profile = "Chang-Sau-Sheong.jpg"
         name = "Chang Sau Sheong"
 
-       [params.conference.talks.talk21]
+      [params.conference.talks.talk21]
         title = "GOODBYE"
         class = "timeline-mono-header"
         timerange = "6pm"
 
-       [params.conference.talks.talk22]
+      [params.conference.talks.talk22]
         title = "$GOPHERCONSG/after/party/🎉"
         class = "timeline-mono-header"
         timerange = "7.00pm to 11.00pm"
