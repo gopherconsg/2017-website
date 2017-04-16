@@ -1,4 +1,4 @@
 +++
 title = "Speakers"
-
+type = "speakers"
 +++

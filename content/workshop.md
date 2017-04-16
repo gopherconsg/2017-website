@@ -1,5 +1,6 @@
 +++
 title = "Ultimate Go Workshop"
+type = "workshop"
 
 +++
 
