@@ -118,17 +118,16 @@ img.img-responsive.gold-sponsor-logos {
   display: block;
   width: auto;
   min-width: 380px;
-  height: 150px;
-  margin: 0 auto;
+  height: 160px;
+  margin: 10px auto;
 }
 
 img.img-responsive.silver-sponsor-logos {
   display: block;
   width: auto;
   min-width: 350px;
-  max-width: 350px;
-  height: 120px;
-  margin: 0 auto;
+  height: 100px;
+  margin: 10px auto;
 }
 
 img.img-responsive.venue-sponsor-logos {
@@ -141,7 +140,7 @@ img.img-responsive.venue-sponsor-logos {
 
 .sponsor-row {
   margin-top: 140px;
-  margin-bottom: 220px;
+  margin-bottom: 250px;
 }
 
 .sponsor-invite-text {
