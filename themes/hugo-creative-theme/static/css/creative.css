@@ -181,7 +181,8 @@ img.speaker-img-responsive {
   height: auto;
 }
 
-.speaker-content {
+.timeline .speaker-img {
+  margin: 0 1.5em 0 0;
 }
 
 .speaker-name a {
