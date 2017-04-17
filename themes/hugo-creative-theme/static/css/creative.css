@@ -125,7 +125,6 @@ img.img-responsive.gold-sponsor-logos {
 img.img-responsive.silver-sponsor-logos {
   display: block;
   width: auto;
-  min-width: 350px;
   height: 100px;
   margin: 10px auto;
 }
@@ -141,10 +140,6 @@ img.img-responsive.venue-sponsor-logos {
 .sponsor-row {
   margin-top: 140px;
   margin-bottom: 250px;
-}
-
-.sponsor-invite-text {
-  margin-top: 80px;
 }
 
 #partners {
