@@ -133,11 +133,11 @@ theme = "hugo-creative-theme"
        title = "Distributed Tracing in Grab"
 
     [params.speakers.speaker_talk_f]
-       profile = "gopher_merlion.png"
-       name = "Ent"
+       profile = "ent.jpg"
+       name = "V N Nikhil Anurag"
        fragmentid = "ent"
-       brand = ""
-       bio = "A Python turned Gopher software developer with 8 years of experience working in startup companies."
+       brand = "https://github.com/last-ent/"
+       bio = "Nikhil is a developer who has worked in multiple domains - ranging from Physics Simulation Models to Ad Tech. In his spare time he tinkers with different programming languages & concepts always trying to better under who things work."
        title = "Runtime & Concurrency in Go."
 
     [params.speakers.speaker_talk_g]
@@ -278,10 +278,10 @@ theme = "hugo-creative-theme"
       [params.conference.talks.talk12]
         title = "Runtime & Concurrency in Go."
         class = "timeline-sub-header"
-        profile = "gopher_merlion.png"
-        name = "Ent"
+        profile = "ent.jpg"
+        name = "V N Nikhil Anurag"
         fragmentid = "ent"
-        talk = "One popular feature of Go is Goroutine. Yet, not everyone knows how Goroutines work under the hood or what factors need to be taken into consideration when working with them. This talk attempts to explain the rationale behind Green Threads & Coroutines and how Goroutines are linked to them."
+        talk = "Goroutines are amazing - They work across multiple cores and spawn multitude of threads. While we all love to use the Goroutines, I feel not much time has been spent in explaining upon what concepts they are built - Green Threads & Coroutines. This talk is an attempt to bridge that gap by discussing the above mentioned topics in great detail. The talk will cover Lifecycle of a Go binary GIL (or lack thereof),  Green Threads, event loops and Coroutines as well as goroutine gotchas"
 
        [params.conference.talks.talk13]
         title = "TDD for those who don't need it"
