@@ -142,7 +142,7 @@ theme = "hugo-creative-theme"
     [params.speakers.speaker_talk_g]
        profile = "manishraijain.jpg"
        name = "Manish Rai Jain"
-       fragmentid = "maish-rai-jain"
+       fragmentid = "manish-rai-jain"
        brand = "https://twitter.com/manishrjain"
        caption = "Dgraph"
        bio = "Manish is the founder of Dgraph, a distributed graph database built for production. He got thrust into distributed systems right out of college, working on real-time web indexing system at Google. He then led various projects to consolidate and serve knowledge graph right behind web search.  Implementing GTD and Zero Waste practices, Manish is into efficient and minimalist living. He loves cycling, swimming and ultra-light traveling."
@@ -169,7 +169,7 @@ theme = "hugo-creative-theme"
      [params.speakers.speaker_talk_j]
         profile = "ian-lewis.png"
         name = "Ian Lewis"
-        fragmentid = "ian-lewis-and-shilin-wu"
+        fragmentid = "ian-lewis"
         brand = "https://github.com/IanLewis"
         caption = "Google"
         bio = "Ian is a Developer Advocate for Google Cloud Platform based Tokyo, Japan. Ian is a Python and Go developer who is passionate about developer communities. He previously co-founded PyCon JP, the largest Python event in Japan. Ian loves learning about how systems work end-to end and spends his time writing and deploying distributed web apps to his favorite container orchestrator (Kubernetes)."
@@ -254,17 +254,16 @@ theme = "hugo-creative-theme"
       [params.conference.talks.talk09]
         title = "Native Go Development on GCP with the Context Package"
         class = "timeline-sub-header"
-        # profile = "gopher_merlion.png"
-        # name = "Ian Lewis and Shilin Wu"
-        fragmentid = "ian-lewis-and-Shilin-wu"
         talk = "Ian and Shilin will tag team in this presentation. The talk will demonstrate(via Kubernetes) how well golang is supported in Cloud Platforms from development, API integration to deployment and operations. In addition, a deep dive into Golang context package and best practices in high concurrency programming will also be covered."
         [params.conference.talks.talk09.speakers]
           [params.conference.talks.talk09.speakers.ian]
             profile = "gopher_merlion.png"
-            name = "Ian Lewis and Shilin Wu"
+            name = "Ian Lewis"
+            fragmentid = "ian-lewis"
           [params.conference.talks.talk09.speakers.shilin]
             profile = "gopher_merlion.png"
             name = "Shilin Wu"
+            fragmentid = "shilin-wu"
 
       [params.conference.talks.talk10]
         title = "$GOPHERCONSG/lunch/time"
@@ -309,6 +308,7 @@ theme = "hugo-creative-theme"
         timerange = "4.00pm"
         profile = "manishraijain.jpg"
         name = "Manish Rai Jain"
+        fragmentid = "manish-rai-jain"
         talk = "Dgraph is a native and distributed graph database written entirely in Go. Efficient distributed joins is a hard problem and Dgraph tackles it head on. Since v0.1 release in Dec’15, Dgraph has seen a lot of activity, reaching close to 2000 Github stars and featuring on the front page of Hacker News multiple times."
 
       [params.conference.talks.talk16]
