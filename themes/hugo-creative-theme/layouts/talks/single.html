@@ -34,6 +34,16 @@
                   <div class="speaker-bio-link"><a href="/speakers/#{{ .fragmentid }}">{{ .name }}</a></div>
                 </div>
                 {{ end }}
+                <div class="speaker-block">
+                {{ range .speakers }}
+                  <div class="speaker-mul">
+                  <div class="speaker-img-xs">
+                    <img src="../../img/{{ .profile }}" class="speaker-img-responsive center-block" alt="{{ .name }}">
+                  </div>
+                  <div class="speaker-bio-link"><a href="/speakers/#{{ .fragmentid }}">{{ .name }}</a></div>
+                  </div>
+                {{ end }}
+                </div>
               </div>
             </div>
           </div>

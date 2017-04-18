@@ -146,15 +146,31 @@ img.img-responsive.venue-sponsor-logos {
   background: #EDEDED;
 }
 
+.speaker-mul {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-align: center;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.speaker-mul:last-child::before {
+  content: "and";
+  padding: 0 1.5em;
+}
+
 .speaker {
   display: -ms-flexbox;
   display: -webkit-box;
   display: flex;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
-  -ms-flex-align: start;
-  -webkit-box-align: start;
-  align-items: flex-start;
+  -ms-flex-align: center;
+  -webkit-box-align: center;
+  align-items: center;
   padding-top: 55px;
   margin-bottom: 20px;
 }
@@ -181,7 +197,8 @@ img.speaker-img-responsive {
   height: auto;
 }
 
-.speaker-content {
+.timeline .speaker-img {
+  margin: 0 1.5em 0 0;
 }
 
 .speaker-name a {
