@@ -328,6 +328,11 @@ h4.timeline-mono-header {
   padding: 1em 0;
 }
 
+.timeline-block[id]:not([id=""]) {
+  padding-top: 5em;
+  margin-top: -4em;
+}
+
 .timeline-time, .timeline-event {
   padding: 0;
 }
