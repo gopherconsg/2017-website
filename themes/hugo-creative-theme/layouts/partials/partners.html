@@ -4,38 +4,45 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 text-center">
                 {{ with .Site.Params.partners.headline }}
-                    <h2 class="section-heading">{{ . }}</h2>
+                <h2 class="section-heading">{{ . }}</h2>
                 {{ end }}
                 {{ if and .Site.Params.partners.headline .Site.Params.partners.description }}
-                    <hr class="primary">
+                <hr class="primary">
                 {{ end }}
             </div>
-            <div class="sponsor-logos clearfix">
-                <div class="gold-sponsor-logos-row sponsor-row clearfix">
-                    <div class="col-lg-6 col-md-6 text-center">
+            <div class="col-lg-12 sponsor-logos">
+                <div class="platinum-sponsor-logos-row sponsor-row">
+                    <div class="text-center">
+                        <img class="img-responsive platinum-sponsor-logos" src="../../img/gojek_logo.png" />
+                    </div>                    
+                </div>
+                <div class="gold-sponsor-logos-row sponsor-row">
+                    <div class="text-center">
                         <img class="img-responsive gold-sponsor-logos" src="../../img/thoughtworks_logo.png" />
                     </div>
-                    <div class="col-lg-6 col-md-6 text-center">
+                    <div class="text-center">
                         <img class="img-responsive gold-sponsor-logos" src="../../img/singapore_power_logo.png" />
                     </div>
                 </div>
-                <div class="silver-sponsor-logos-row sponsor-row clearfix">
-                    <div class="col-lg-6 col-md-6 text-center">
+                <div class="silver-sponsor-logos-row sponsor-row">
+                    <div class="img-svg">
                         <img class="img-responsive silver-sponsor-logos" src="../../img/dgraph_logo.svg" />
                     </div>
-                    <div class="col-lg-6 col-md-6 text-center">
+                    <div class="text-center">
                         <img class="img-responsive silver-sponsor-logos" src="../../img/carousell_logo.png" />
                     </div>
  
                 </div>
-                <div class="venue-sponsor-logos-row sponsor-row clearfix">
-                    <div class="col-lg-12 col-md-12 text-center">
+                <div class="venue-sponsor-logos-row sponsor-row">
+                    <div class="text-center">
                         <img class="img-responsive venue-sponsor-logos" src="../../img/google_logo.png" />
                     </div>
+                    <div class="text-center">
+                        <img class="img-responsive venue-sponsor-logos" src="../../img/standard_chartered_logo.png" />
+                    </div>
                 </div>
-
             </div>
-            <div class="sponsor-invite-text text-center">
+            <div class="col-lg-12 sponsor-invite-text text-center">
                 {{ with .Site.Params.partners.description }}
                     <p>{{ . | markdownify }}</p>
                 {{ end }}
