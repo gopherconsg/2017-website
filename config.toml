@@ -266,7 +266,10 @@ theme = "hugo-creative-theme"
         title = "Native Go Development on GCP with the Context Package"
         class = "timeline-sub-header"
         talk = "Ian and Shilin will tag team in this presentation. The talk will demonstrate(via Kubernetes) how well golang is supported in Cloud Platforms from development, API integration to deployment and operations. In addition, a deep dive into Golang context package and best practices in high concurrency programming will also be covered."
+<<<<<<< HEAD
 		fragmentid = "google"
+=======
+>>>>>>> 25bf42937973cb1c3c0ade25ec684ee42feebf92
         [params.conference.talks.talk09.speakers]
           [params.conference.talks.talk09.speakers.ian]
             profile = "ian-lewis.png"
