@@ -28,7 +28,10 @@
                   <div class="speaker-bio">{{ . | markdownify }}</div>
                 {{ end }}
                 <div class="speaker-talk-link">
-                  <a href="/talks/#{{ .fragmentid }}">{{ .title }}</a>
+                    <a href="/talks/#{{ if .talkid }}{{ .talkid  }}
+                    {{ else }}{{ .fragmentid }}{{ end }}">
+                        {{ .title }}
+                    </a>
                   <div class="speaker-talk-abstract">
                     <p>{{ .abstract }}</p>
                   </div>

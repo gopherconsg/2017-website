@@ -170,9 +170,20 @@ theme = "hugo-creative-theme"
         profile = "ian-lewis.png"
         name = "Ian Lewis"
         fragmentid = "ian-lewis"
+        talkid = "google"
         brand = "https://github.com/IanLewis"
         caption = "Google"
         bio = "Ian is a Developer Advocate for Google Cloud Platform based Tokyo, Japan. Ian is a Python and Go developer who is passionate about developer communities. He previously co-founded PyCon JP, the largest Python event in Japan. Ian loves learning about how systems work end-to end and spends his time writing and deploying distributed web apps to his favorite container orchestrator (Kubernetes)."
+        title = "Native Go Development on GCP with the Context Package"
+
+   [params.speakers.speaker_talk_k]
+        profile = "shilin.jpg"
+        name = "Shilin Wu"
+        fragmentid = "shilin-wu"
+        talkid = "google"
+        brand = ""
+        caption = "Google"
+        bio = "Shilin is a Strategic Customer Engineer for Google Cloud Platform based in Singapore. Shilin works with strategic Google Cloud customers in APAC. He was Java and Go programer and specialize in Data Analytics and Engineering."
         title = "Native Go Development on GCP with the Context Package"
 
     # --------------------------------------
@@ -255,13 +266,17 @@ theme = "hugo-creative-theme"
         title = "Native Go Development on GCP with the Context Package"
         class = "timeline-sub-header"
         talk = "Ian and Shilin will tag team in this presentation. The talk will demonstrate(via Kubernetes) how well golang is supported in Cloud Platforms from development, API integration to deployment and operations. In addition, a deep dive into Golang context package and best practices in high concurrency programming will also be covered."
+<<<<<<< HEAD
+		fragmentid = "google"
+=======
+>>>>>>> 25bf42937973cb1c3c0ade25ec684ee42feebf92
         [params.conference.talks.talk09.speakers]
           [params.conference.talks.talk09.speakers.ian]
-            profile = "gopher_merlion.png"
+            profile = "ian-lewis.png"
             name = "Ian Lewis"
             fragmentid = "ian-lewis"
           [params.conference.talks.talk09.speakers.shilin]
-            profile = "gopher_merlion.png"
+            profile = "shilin.jpg"
             name = "Shilin Wu"
             fragmentid = "shilin-wu"
 
