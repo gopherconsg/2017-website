@@ -107,9 +107,6 @@ h2.article-title {
   text-align: center;
 }
 
-.gold-sponsor-logos-row {
-}
-
 .sponsor-text {
   margin-bottom: 30px;
 }
@@ -117,29 +114,33 @@ h2.article-title {
 img.img-responsive.gold-sponsor-logos {
   display: block;
   width: auto;
-  min-width: 380px;
-  height: 160px;
+  max-width: 350px;
+  height: auto;
   margin: 10px auto;
 }
 
 img.img-responsive.silver-sponsor-logos {
   display: block;
   width: auto;
-  height: 100px;
+  max-width: 220px;
+  height: auto;
   margin: 10px auto;
 }
 
 img.img-responsive.venue-sponsor-logos {
   display: block;
   width: auto;
-  max-width: 350px;
-  height: 100px;
+  max-width: 300px;
+  height: auto;
   margin: 0 auto;
 }
 
 .sponsor-row {
-  margin-top: 140px;
-  margin-bottom: 250px;
+  margin-top: 2em;
+}
+
+.sponsor-invite-text {
+  margin-top: 2.5em;
 }
 
 #partners {
