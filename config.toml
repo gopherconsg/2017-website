@@ -175,6 +175,15 @@ theme = "hugo-creative-theme"
         bio = "Ian is a Developer Advocate for Google Cloud Platform based Tokyo, Japan. Ian is a Python and Go developer who is passionate about developer communities. He previously co-founded PyCon JP, the largest Python event in Japan. Ian loves learning about how systems work end-to end and spends his time writing and deploying distributed web apps to his favorite container orchestrator (Kubernetes)."
         title = "Native Go Development on GCP with the Context Package"
 
+   [params.speakers.speaker_talk_k]
+        profile = "shilin.jpg"
+        name = "Shilin Wu"
+        fragmentid = "shilin-wu"
+        brand = ""
+        caption = "Google"
+        bio = "Shilin is a Strategic Customer Engineer for Google Cloud Platform based in Singapore. Shilin works with strategic Google Cloud customers in APAC. He was Java and Go programer and specialize in Data Analytics and Engineering."
+        title = "Native Go Development on GCP with the Context Package"
+
     # --------------------------------------
 
   [params.events]
