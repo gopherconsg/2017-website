@@ -116,7 +116,7 @@ img.img-responsive.platinum-sponsor-logos {
   width: auto;
   max-width: 280px;
   height: auto;
-  margin: 0 auto;  
+  margin: 0 auto;
 }
 
 img.img-responsive.gold-sponsor-logos {
@@ -156,7 +156,7 @@ img.img-responsive.venue-sponsor-logos {
   justify-content: center;
   -ms-flex-align: center;
   -webkit-box-align: center;
-    align-items: center;        
+    align-items: center;
   margin-top: 2em;
 }
 
@@ -324,7 +324,7 @@ h4.timeline-mono-header {
   content: '';
   position: absolute;
   top: 0;
-  left: 20%;
+  left: 25%;
   background: #272727;
   width: 1px;
   height: 100%;
@@ -336,18 +336,10 @@ h4.timeline-mono-header {
   height: 15px;
   background-color: #272727;
   border-radius: 50%;
-  left: 20%;
+  left: 25%;
   margin-top: 2px;
-  margin-left: -7.5px;
-}
-
-@media(min-width: 992px) {
-  .timeline:before {
-    left: 10%;
-  }
-  .timeline-point {
-    left: 10%;
-  }
+  margin-left: -7px;
+  pointer-events: none;
 }
 
 .timeline-block {
@@ -363,10 +355,15 @@ h4.timeline-mono-header {
   padding: 0;
 }
 
+.timeline-event {
+  word-wrap: break-word;
+}
+
 .timeline-time {
   font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
   color: #36bfbe;
   padding-right: 5em;
+  text-align: right;
 }
 
 h4.timeline-sub-block-header {
@@ -457,8 +454,7 @@ h4.timeline-sub-block-header {
 }
 
 .gopher-nav {
-  background: white;
-  width: 100%;
+  background: #fff;
 }
 
 .navbar-default {
@@ -474,6 +470,7 @@ h4.timeline-sub-block-header {
     font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
     font-weight: 700;
     color: #e84661;
+    font-size: 16px;
 }
 
 .navbar-default .navbar-header .navbar-brand:hover,

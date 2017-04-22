@@ -19,8 +19,8 @@
         {{ range .Site.Params.conference.talks }}
           <div class="timeline-block clearfix" id="{{ .fragmentid }}">
             <div class="timeline-point"></div>
-            <div class="timeline-time col-xs-3 col-md-2">{{ .timerange }}</div>
-            <div class="timeline-event col-xs-9 col-md-10">
+            <div class="timeline-time col-xs-3">{{ .timerange }}</div>
+            <div class="timeline-event col-xs-offset-1 col-xs-8">
               <h4 class="{{ .class }}">{{ .title }}</h4>
               <div class="talk-block">
                 {{ with .talk }}
