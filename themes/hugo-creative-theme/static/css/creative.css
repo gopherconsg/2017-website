@@ -603,14 +603,19 @@ h4.timeline-sub-block-header {
 }
 
 .cover-img .img-responsive{
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 .cover-title {
-    margin-top: -10px;
+  margin-top: -10px;
 }
 
-.cover-subtitle {
+.cover-venue {
+  font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+  font-size: 1.3em;
+  font-style: uppercase;
+  letter-spacing: 2px;
+  color: #333;
 }
 
 header {
