@@ -603,14 +603,16 @@ h4.timeline-sub-block-header {
 }
 
 .cover-img .img-responsive{
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 .cover-title {
-    margin-top: -10px;
+  margin-top: -10px;
 }
 
 .cover-subtitle {
+  line-height: 1.5em;
+  margin-bottom: 1.2em;
 }
 
 header {
