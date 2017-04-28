@@ -610,12 +610,9 @@ h4.timeline-sub-block-header {
   margin-top: -10px;
 }
 
-.cover-venue {
-  font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
-  font-size: 1.3em;
-  font-style: uppercase;
-  letter-spacing: 2px;
-  color: #333;
+.cover-subtitle {
+  line-height: 1.5em;
+  margin-bottom: 1.2em;
 }
 
 header {
