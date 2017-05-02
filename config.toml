@@ -186,6 +186,15 @@ theme = "hugo-creative-theme"
         bio = "Shilin is a Strategic Customer Engineer for Google Cloud Platform based in Singapore. Shilin works with strategic Google Cloud customers in APAC. He was Java and Go programer and specialize in Data Analytics and Engineering."
         title = "Native Go Development on GCP with the Context Package"
 
+   [params.speakers.speaker_talk_l]
+        profile = "aditya.png"
+        name = "Aditya Mukerjee"
+        fragmentid = "aditya-mukerjee"
+        brand = "https://adityamukerjee.net/"
+        caption = "Stripe"
+        bio = "Aditya is an engineer at Stripe on the Risk team, based in New York City. He studied statistics at Columbia and computer science at Cornell, and has been writing Go professionally for the past four years. When not defending users against online fraudsters, he spends his free time playing German-style board games and listening to embarrassing music."
+        title = "The Hidden Power of Humble Interfaces"
+
     # --------------------------------------
 
   [params.events]
