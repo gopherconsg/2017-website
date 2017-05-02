@@ -615,6 +615,30 @@ h4.timeline-sub-block-header {
   margin-bottom: 1.2em;
 }
 
+.banner {
+  padding: .34em 1em;
+  margin: 0;
+  margin-top: 0.5em;
+  position: relative;
+  color: #ffffff;
+  font-family: 'Merriweather', sans-serif;
+  font-size: 2em;
+  text-align: center;
+  letter-spacing:0.1em;
+  text-shadow: 0px -1px 0px rgba(0,0,0,0.3);
+  box-shadow: inset 0px 1px 0px rgba(255,255,255,.3),
+        inset 0px 0px 20px rgba(0,0,0,0.1),
+        0px 1px 1px rgba(0,0,0,0.4);
+  background: -webkit-linear-gradient(top,#1eb2df, #17a7d2);
+  border-radius: 2em;
+  display: inline-block;
+}
+
+span.content {
+  margin: 0;
+  padding: 0;
+}
+
 header {
     position: relative;
     width: 100%;
