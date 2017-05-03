@@ -195,6 +195,15 @@ theme = "hugo-creative-theme"
         bio = "Aditya is an engineer at Stripe on the Risk team, based in New York City. He studied statistics at Columbia and computer science at Cornell, and has been writing Go professionally for the past four years. When not defending users against online fraudsters, he spends his free time playing German-style board games and listening to embarrassing music."
         title = "The Hidden Power of Humble Interfaces"
 
+   [params.speakers.speaker_talk_m]
+        profile = "lakshan.jpg"
+        name = "Lakshan Perera"
+        fragmentid = "lakshan-perera"
+        brand = "http://laktek.com"
+        caption = "Pragma Labs"
+        bio = "Lakshan Perera is the founder of Pragma Labs. Previously, he was at Atlassian and Nitrous. He's using Go since 2012 and used to run Singapore Gophers meetup."
+        title = "Building CLI apps with Go"
+
     # --------------------------------------
 
   [params.events]
@@ -318,7 +327,7 @@ theme = "hugo-creative-theme"
         talk = "For the longest time, I didn’t write tests. Writing tests is a chore, a waste of time, and doesn’t GTD. The snobbery of the test community only turned me off even more; discouraging good developers from trying TDD. Now, I write tests first. This talk explains what clicked for me (and maybe it will for you too)"
 
       [params.conference.talks.talk14]
-        title = "The Hidden Power of Humble Interfaces"
+        title = "The Hidden Power of Humble Interfaces (lightning talk)"
         class = "timeline-sub-header"
         profile = "aditya.png"
         name = "Aditya Mukerjee"
@@ -332,15 +341,23 @@ theme = "hugo-creative-theme"
         talk = "Coffee and snacks"
 
       [params.conference.talks.talk16]
-        title = "Dgraph - A distributed graph database written in Go"
+        title = "Building CLI apps with Go (lightning talk)"
         class = "timeline-sub-header"
         timerange = "4.15pm"
+        profile = "lakshan.jpg"
+        name = "Lakshan Perera"
+        fragmentid = "lakshan-perera"
+        talk = "Writing and managing cross-platform CLI applications are hard. Thanks to varying configurations and dependencies every single installation and update can be flaky. Diagnosing causes, reproducing them and applying fixing are usually a time sink. In this talk, you will learn how Go can help to alleviate many of those pains with its statically compiled binaries."
+
+      [params.conference.talks.talk17]
+        title = "Dgraph - A distributed graph database written in Go"
+        class = "timeline-sub-header"
         profile = "manishraijain.jpg"
         name = "Manish Rai Jain"
         fragmentid = "manish-rai-jain"
         talk = "Dgraph is a native and distributed graph database written entirely in Go. Efficient distributed joins is a hard problem and Dgraph tackles it head on. Since v0.1 release in Dec’15, Dgraph has seen a lot of activity, reaching close to 2000 Github stars and featuring on the front page of Hacker News multiple times."
 
-      [params.conference.talks.talk17]
+      [params.conference.talks.talk18]
         title = "chromedp: A New Way to Drive the Web"
         class = "timeline-sub-header"
         profile = "kennethshaw.jpg"
@@ -348,7 +365,7 @@ theme = "hugo-creative-theme"
         fragmentid = "kenneth-shaw"
         talk = "Introduction to chromedp: a faster, simpler way to drive browsers in Go using the Chrome Debugging Protocol (for Chrome, Edge, Safari, etc) without external dependencies. Includes overview of using chromedp to rapidly author complex task hierarchies for scraping and unit testing/profiling web apps."
 
-      [params.conference.talks.talk18]
+      [params.conference.talks.talk19]
         title = "Getting started on Ethereum for Go programmers"
         class = "timeline-sub-header"
         profile = "daveappleton.png"
@@ -356,7 +373,7 @@ theme = "hugo-creative-theme"
         fragmentid = "dave-appleton"
         talk = "Learn how a Go programmer can get started with the hottest blockchain technology on the block with an easy tutorial that will demonstrate creating a simple smart contract and accessing it from a Go server as well as an Ethereum Wallet."
 
-      [params.conference.talks.talk19]
+      [params.conference.talks.talk20]
         title = "Concurrency made easy"
         class = "timeline-sub-header"
         profile = "dave_cheney.jpg"
@@ -364,26 +381,26 @@ theme = "hugo-creative-theme"
         fragmentid = "dave-cheney"
         talk = "Go's headline feature is its simple, lightweight concurrency, but most Go programmers that stick with the language for a while tend to look back on their early efforts and say things like \"wow, I really went overboard with channels\" or \"I went crazy with goroutines, it was impossible to understand what the program did\". Clearly there is a disconnect between the concurrency primitives that the language offers, and the expectations of many why come to Go for exactly those features. This talk will explore some strategies for using with concurrency in Go without the pitfalls."
 
-      [params.conference.talks.talk20]
+      [params.conference.talks.talk21]
         title = "Closing Keynote: To be announced"
         class = "timeline-sub-header"
         profile = "ajey-gore.jpg"
         name = "Ajey Gore"
         fragmentid = "ajey-gore"
 
-      [params.conference.talks.talk21]
+      [params.conference.talks.talk22]
         title = "Closing Remarks"
         class = "timeline-sub-header"
-        timerange = "6.00pm"
+        timerange = "6.15pm"
         profile = "Chang-Sau-Sheong.jpg"
         name = "Chang Sau Sheong"
 
-      [params.conference.talks.talk22]
+      [params.conference.talks.talk23]
         title = "GOODBYE"
         class = "timeline-mono-header"
-        timerange = "6.15pm"
+        timerange = "6.30pm"
 
-      [params.conference.talks.talk23]
+      [params.conference.talks.talk24]
         title = "$GOPHERCONSG/after/party/🎉"
         class = "timeline-mono-header"
         timerange = "7.00pm to 11.00pm"
