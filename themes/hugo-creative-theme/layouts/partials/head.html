@@ -4,12 +4,12 @@
 {{ with .Site.Params.name }}<meta name="author" content="{{ . }}">{{ end }}
 {{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
 <link rel="canonical" href="{{ .Permalink }}">
-{{ with .Site.Params.name }}<meta property="og:title" content="{{ . }}" />{{ end }}
+<meta property="og:title" content="{{ if ne .Page.Title .Site.Title }}{{ .Page.Title }} &mdash; {{ end }}{{ .Site.Title }}" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="{{ .Permalink }}" />
 <meta property="og:image" content="{{ .Site.BaseURL }}img/gopherconsg_logo.png" />
 {{ .Hugo.Generator }}
-<title>{{ .Site.Title }}</title>
+<title>{{ if ne .Page.Title .Site.Title }}{{ .Page.Title }} &mdash; {{ end }}{{ .Site.Title }}</title>
 {{ "<!-- Favicon -->" | safeHTML }}
 <link rel="shortcut icon" href="{{ .Site.BaseURL }}{{ .Site.Params.favicon }}">
 {{ "<!-- Bootstrap Core CSS -->" | safeHTML }}
