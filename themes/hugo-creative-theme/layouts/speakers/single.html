@@ -28,7 +28,7 @@
                   <div class="speaker-bio">{{ . | markdownify }}</div>
                 {{ end }}
                 <div class="speaker-talk-link">
-                    <a href="/talks/#{{ if .talkid }}{{ .talkid  }}
+                    <a href="/schedule/#{{ if .talkid }}{{ .talkid  }}
                     {{ else }}{{ .fragmentid }}{{ end }}">
                         {{ .title }}
                     </a>

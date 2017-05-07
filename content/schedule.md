@@ -1,4 +1,4 @@
 +++
 title = "Schedule"
-type = "talks"
+type = "schedule"
 +++
