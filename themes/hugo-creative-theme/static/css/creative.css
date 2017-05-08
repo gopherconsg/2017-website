@@ -135,6 +135,10 @@ img.img-responsive.silver-sponsor-logos {
   margin: 10px auto;
 }
 
+img.img-responsive.silver-sponsor-logos.datadog {
+  max-width: 110px;
+}
+
 img.img-responsive.venue-sponsor-logos {
   display: block;
   width: auto;

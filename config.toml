@@ -431,7 +431,3 @@ theme = "hugo-creative-theme"
 	# Footer section
 	[params.credits]
     description = "hello@gophercon.sg"
-
-  [[redirects]]
-    old = "/talks"
-    new = "/schedule"
