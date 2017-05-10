@@ -89,13 +89,13 @@ theme = "hugo-creative-theme"
        title = "TBA"
 
     [params.speakers.speaker_talk_a]
-       profile = "gopher_merlion.png"
-       name = "Do Xuan Huy"
-       fragmentid = "do-xuan-huy"
+       profile = "huy-do.png"
+       name = "Huy Do"
+       fragmentid = "huy-do"
        brand = "https://twitter.com/dxhuy"
        caption = "LINE Corporation"
-       bio = "Huy's a software engineer working at LINE corp in the group called engineering effeciency. His group mission is to reduce painful point of development process, building tools which make software development and shipment easier, more fun and safer. Previous to golang, he's a heavy user of Ruby, and also one of founder of Vietnam biggest Ruby user group. He'd also co-founded one of biggest social platform for software engineer in Vietname: kipalog (https://kipalog.com)"
-       title = "How golang help us to solve organization scale problem at LINE"
+       bio = "Huy is a programmer working in Tokyo. He is also co-founded kipalog.com, a social blogging platform target Vietnamese software engineer, and a core member of Ruby Vietnam community. Huy works at LINE corp building monitoring platform and any tools that could make engineers life better."
+       title = "Engineering Efficiency powered by Go"
 
     [params.speakers.speaker_talk_b]
        profile = "chewxy.jpg"
@@ -250,12 +250,12 @@ theme = "hugo-creative-theme"
         talk = "Go is known for its powerful concurrency primitives but why? Why is concurrency in Go so powerful and an important aspect of future software development? In this talk we will discuss the importance of having languages that provide concurrency support and see how Go’s constructs make it easy to use and reason about for modern software"
 
       [params.conference.talks.talk05]
-        title = "How golang help us to solve organization scale problem at LINE"
+        title = " Engineering Efficiency powered by Go"
         class = "timeline-sub-header"
-        profile = "gopher_merlion.png"
-        name = "Do Xuan Huy"
+        profile = "huy-do.png"
+        name = "Huy Do"
         fragmentid = "do-xuan-huy"
-        talk = "Growing to 400 million registered users in only 5 years led not only to scaling problems of computer systems, but also scaling issues within the organization. In LINE, we solved that problem by building tools which improve engineer productivity and unified processes. In this presentation, I will introduce those tools."
+        talk = "In LINE engineering efficiency team, we solve organization scale problem by building tools which improve engineer productivity and unified processes.  In this talk, we discover how small tools and automation of development process can help improve your company engineering efficiency, reduce repeatable work and stresses."
 
       [params.conference.talks.talk06]
         title = "$GOPHERCONSG/teabreak"
