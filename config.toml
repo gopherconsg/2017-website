@@ -128,7 +128,7 @@ theme = "hugo-creative-theme"
        fragmentid = "ryan-law"
        brand = ""
        caption = "Grab"
-       bio = "Ryan is currently a Site Reliability Engineer at Grab. Being one of Grab’s early engineers, he has extensive knowledge of Grab’s system and he makes use of it by diving deep into different technical problems on a daily basis. Before switching over to his current role, Ryan led the web frontend and the Ruby on Rails teams at Grab."
+       bio = "As one of the pioneering engineers in Grab, Ryan has built some of Grab's early production systems which later faced problems at scale. He now uses his experience to work as a Site Reliability Engineer to help identify and pre-empt similar issues."
        title = "Distributed Tracing in Grab"
 
     [params.speakers.speaker_talk_f]
@@ -308,7 +308,7 @@ theme = "hugo-creative-theme"
         profile = "ryanlaw.jpg"
         name = "Ryan Law"
         fragmentid = "ryan-law"
-        talk = "In Grab, we went from monolithic services to multiple smaller services in Go and we missed the ability to have detailed transaction traces of our code. In this talk, we will show you how we are re-implementing this ability in Go, a language that does not support thread-locals."
+        talk = "When we migrated from our Rails monolith to multiple smaller Go apps, one of the things that we missed the most was the ability to trace a request, a feature that has in the past helped us pinpoint problems quickly. In this talk, I will be sharing how we are bringing this feature back into our Go apps."
 
       [params.conference.talks.talk12]
         title = "Runtime & Concurrency in Go."
