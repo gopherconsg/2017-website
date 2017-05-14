@@ -94,7 +94,7 @@ theme = "hugo-creative-theme"
        fragmentid = "huy-do"
        brand = "https://twitter.com/dxhuy"
        caption = "LINE Corporation"
-       bio = "Huy is a programmer working in Tokyo. He is also co-founded kipalog.com, a social blogging platform target Vietnamese software engineer, and a core member of Ruby Vietnam community. Huy works at LINE corp building monitoring platform and any tools that could make engineers life better."
+       bio = "Huy is a programmer working in Tokyo. He also co-founded kipalog.com, a social blogging platform targeting Vietnamese software engineers, and a core member of Ruby Vietnam community. Huy works at LINE corp building monitoring platform and any tools that can make engineers' lives better."
        title = "Engineering Efficiency powered by Go"
 
     [params.speakers.speaker_talk_b]
