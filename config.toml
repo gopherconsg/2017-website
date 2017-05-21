@@ -31,12 +31,11 @@ theme = "hugo-creative-theme"
 		brand = "GopherCon Singapore"
 
 		[params.navigation.links]
-			#about    = "About"
 			speakers  = "Speakers"
       talks     = "Talks"
 			venue     = "Venue"
 			workshop = "Workshop"
-      #partners = "Partners"
+      team = "Team"
 
 	# Hero section
 	[params.hero]
