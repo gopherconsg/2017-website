@@ -36,6 +36,7 @@ theme = "hugo-creative-theme"
 			venue     = "Venue"
 			workshop = "Workshop"
       team = "Team"
+      conduct = "Conduct"
 
 	# Hero section
 	[params.hero]
