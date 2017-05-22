@@ -21,7 +21,6 @@
                         <a href="#">{{ .Site.Params.navigation.links.about }}</a>
                     </li>
                 {{ end }}
-
                     <li>
                         <a href="/workshop">{{ .Site.Params.navigation.links.workshop }}</a>
                     </li>
@@ -33,24 +32,14 @@
                     <li><a href="/speakers">Speakers</a></li>
                 {{ end }}
 
-                {{ if and .Site.Params.events .Site.Params.navigation.links.events }}
-                    <li>
-                        <a href="#">{{ .Site.Params.navigation.links.events }}</a>
-                    </li>
-                {{ end }}
-
                 {{ if and .Site.Params.venue .Site.Params.navigation.links.venue }}
                     <li>
                         <a href="/venue">{{ .Site.Params.navigation.links.venue }}</a>
                     </li>
                 {{ end }}
-
-                {{ if and .Site.Params.partners .Site.Params.navigation.links.partners }}
                     <li>
-                        <a href="#">{{ .Site.Params.navigation.links.partners }}</a>
+                        <a href="/team">{{ .Site.Params.navigation.links.team }}</a>
                     </li>
-                {{ end }}
-
                 <li>
                     <a href="http://www.ticketbase.com/events/gopherconsg2017" class="tickets-btn">Tickets</a>
                 </li>

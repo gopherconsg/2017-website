@@ -1,0 +1,23 @@
+{{ partial "default_head.html" . }}
+{{ partial "nav.html" . }}
+
+<div class="container-fluid">
+  <div class="row">
+    <article class="container-fluid article">
+      <h2 class="article-title">{{ .Title }}</h2>
+      <hr>
+      <div class="article-body" itemprop="articleBody">
+        <div>
+          <img src="/img/volunteer@2x.jpg" class="img-responsive">
+        </div>
+        <div class="team-names">
+          {{ .Content }}
+        </div>
+      </div>
+    </article>
+  </div>
+</div>
+
+{{ partial "credits.html" . }}
+
+{{ partial "js.html" . }}
