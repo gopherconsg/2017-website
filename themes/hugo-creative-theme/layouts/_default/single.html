@@ -1,25 +1,18 @@
 {{ partial "default_head.html" . }}
 {{ partial "nav.html" . }}
 
-<div class="row">
-  <div class="col-sm-9">
-
-    <article class="single" itemscope="itemscope" itemtype="http://schema.org/Article">
-
-      <div class="container article">
-        <div class="col-lg-6 text-left">
-          <h1 class="article-title">{{ .Title }}</h1>
-
-          <div class="article-body" itemprop="articleBody">
-            {{ .Content }}
-          </div>
-        </div>
+<div class="container">
+  <div class="row">
+    <article class="container-fluid article">
+      <h2 class="article-title">{{ .Title }}</h2>
+      <hr>
+      <div class="article-body" itemprop="articleBody">
+        {{ .Content }}
       </div>
-
     </article>
   </div>
-
 </div>
+
 
 {{ partial "credits.html" . }}
 
