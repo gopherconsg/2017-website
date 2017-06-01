@@ -615,32 +615,8 @@ h4.timeline-sub-block-header {
 }
 
 .cover-subtitle {
-  line-height: 1.5em;
-  margin-bottom: 1.2em;
-}
-
-.banner {
-  padding: .34em 1em;
-  margin: 0;
-  margin-top: 0.5em;
-  position: relative;
-  color: #ffffff;
-  font-family: 'Merriweather', sans-serif;
-  font-size: 2em;
-  text-align: center;
-  letter-spacing:0.1em;
-  text-shadow: 0px -1px 0px rgba(0,0,0,0.3);
-  box-shadow: inset 0px 1px 0px rgba(255,255,255,.3),
-        inset 0px 0px 20px rgba(0,0,0,0.1),
-        0px 1px 1px rgba(0,0,0,0.4);
-  background: -webkit-linear-gradient(top,#1eb2df, #17a7d2);
-  border-radius: 2em;
-  display: inline-block;
-}
-
-span.content {
-  margin: 0;
-  padding: 0;
+  line-height: 1em;
+  margin-bottom: 0.8em;
 }
 
 @media(max-width: 700px) {
@@ -891,14 +867,10 @@ fieldset[disabled] .btn-default.active {
     transition: all .35s;
 }
 
-.register-btn {
-    margin-bottom: 12px;
-    margin-top: 10px;
-}
-
-.tickets-btn {
-    background-color: transparent;
-    margin-right: 15px;
+.hero-btn {
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  margin-top: 10px;
 }
 
 .btn-primary:hover,
