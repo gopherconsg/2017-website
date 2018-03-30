@@ -1,2 +1,4 @@
-/*  https://2017.gophercon.sg/:splat  301!
+# See https://www.netlify.com/docs/redirects/#handling-hostnames-and-protocols-differently
+
+http://2017.gophercon.sg/*  https://2017.gophercon.sg/:splat  301!
 /talks/*     /schedule/:splat         301
